@@ -112,3 +112,16 @@ Block Scope
     var supported?  | ❌ No (var is function-scoped)     | ✅ Yes
     Access outside? | ❌ No                              | ❌ No
 <<<<<<<=
+
+=>>>>>>>
+Hoisting
+     Hoisting is JavaScript's behavior of moving variable and function declarations to the top of
+     their scope before code execution  
+     
+     // What gets hoisted?
+     Declaration Type     | Hoisted? | Value after hoisting
+     var                  | ✅ Yes   | undefined
+     let / const          | ✅ Yes   | ❌ Hoisted, but not usable (TDZ)
+     Function expression  | ❌ No    | ❌ Not hoisted as function
+     Function declaration | ✅ Yes   | ✅ Usable before definition
+<<<<<<<=
