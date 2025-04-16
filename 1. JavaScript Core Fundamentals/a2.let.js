@@ -1,6 +1,10 @@
+//Definition
+// let in JavaScript is block-scoped, which means it is only accessible within the block {} where it's declared.
+// value can be reassignable
+
 //Declaration
 let a = "Ajju";
-console.log(a);
+console.log(a); //Ajju
 
 //Example for block scoped
 function letEx() {
@@ -12,3 +16,7 @@ function letEx() {
 }
 
 letEx();
+
+//Reassign
+a = 40;
+console.log(a); //40

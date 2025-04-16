@@ -29,3 +29,17 @@ NOTE : It is considered good programming practice to always declare variables be
 <<<<<<<=
 
 NOTE : For var and let value can be reassignable
+
+=>>>>>>>
+
+Premitive DataTypes
+    Type      | Example               | Description
+    String    | "Hello"               | Textual data
+    Number    | 42, 3.14, -7          | Integer or floating-point numbers
+    Boolean   | true, false           | Logical values
+    Undefined | let x;                | Declared but not assigned a value
+    Null      | let x = null;         | Represents "no value"
+    BigInt    | 12345678901234567890n | For very large integers
+    Symbol    | Symbol('id')          | Unique and immutable values
+
+<<<<<<<=
