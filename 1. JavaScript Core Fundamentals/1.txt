@@ -90,3 +90,10 @@ Global scope
         EX : 
         carname="BMW";
 <<<<<<<=
+
+=>>>>>>>
+Local Scope (Function Scope)
+    Local variables have Function Scope:
+        They can only be accessed from within the function.
+    Variables declared with var, let and const are quite similar when declared inside a function.
+<<<<<<<=
