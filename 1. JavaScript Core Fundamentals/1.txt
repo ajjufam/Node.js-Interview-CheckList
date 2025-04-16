@@ -66,3 +66,12 @@ Converting Booleans to Strings
 to convert any data type to number use =>Number(value/variable)
 to convert any data type to String use =>String(value/variable) || (value/variable).toString()
 <<<<<<<=
+
+=>>>>>>>
+Type Coercion
+    Type Coercion is the process where JavaScript automatically converts one data type to another
+    when performing operations involving mixed types.
+
+    Falsy values [0, "", null, undefined, NaN, false], except all others are truthy values
+    Truthy values [any number, any string, {}, [],true]
+<<<<<<<=
