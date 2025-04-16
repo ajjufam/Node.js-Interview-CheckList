@@ -97,3 +97,18 @@ Local Scope (Function Scope)
         They can only be accessed from within the function.
     Variables declared with var, let and const are quite similar when declared inside a function.
 <<<<<<<=
+
+=>>>>>>>
+Block Scope 
+    Created by { ... } like inside if, for, or just curly braces.
+    Variables declared with **let** or **const** inside a block are only accessible inside that block.
+    Not available outside.
+
+    NOTE : var cannot support in this
+
+    Feature         | Block Scope                        | Function (Local) Scope
+    Created by      | Any {} block (e.g., if, for, etc.) | Function body function () {}
+    Applies to      | let, const                         | var, let, const
+    var supported?  | ❌ No (var is function-scoped)     | ✅ Yes
+    Access outside? | ❌ No                              | ❌ No
+<<<<<<<=
