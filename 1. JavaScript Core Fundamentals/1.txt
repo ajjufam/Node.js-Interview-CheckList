@@ -53,3 +53,16 @@ Date
 
 NOTE : Non Primitive Data types are mutable and it tends to "Call by Reference"
 <<<<<<<=
+
+=>>>>>>>
+Type Conversion
+Converting Strings to Numbers
+Converting Numbers to Strings
+Converting Dates to Numbers
+Converting Dates to String
+Converting Booleans to Numbers
+Converting Booleans to Strings
+
+to convert any data type to number use =>Number(value/variable)
+to convert any data type to String use =>String(value/variable) || (value/variable).toString()
+<<<<<<<=

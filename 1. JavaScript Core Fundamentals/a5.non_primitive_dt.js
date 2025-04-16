@@ -2,6 +2,8 @@
 //  In JavaScript, Non-Primitive types are objects.
 //  They are mutable, stored by reference, and can hold multiple values (unlike primitives).
 
+// ====> NOTE <=====  Non Primitives all are typeOf "Object" only
+
 // Feature       | Non-Primitive (Objects)
 // ✅ Mutable   | Yes — can change values inside
 // 📦 Stored by | Reference — not by value
