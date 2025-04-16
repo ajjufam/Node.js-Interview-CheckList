@@ -62,3 +62,10 @@ const user = {
 
 console.log(user[ID]); // ✅ 101
 console.log(user.id); // ❌ undefined
+
+///======>>> IMP (Call By Value Behavior) <<<=========
+let num = 10;
+let num01 = num;
+num01 = 30; // here it wont change the value num
+console.log("num01", num01);
+console.log("num", num);
