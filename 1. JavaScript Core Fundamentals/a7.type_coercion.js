@@ -55,3 +55,11 @@ console.log(
 console.log([] + 10); // "10" ==> "" + 10
 console.log([] + {}); // [object Object]
 console.log({} + []); // [object Object]
+
+console.log("===============");
+
+//Except + operator all others are directly work as numerical operations
+console.log("5" + 5); // Adds or Concats
+console.log("5" - 10);
+console.log("10" * 10);
+console.log("10" / 5);
