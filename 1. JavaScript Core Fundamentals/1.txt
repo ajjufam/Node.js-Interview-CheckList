@@ -31,7 +31,6 @@ NOTE : It is considered good programming practice to always declare variables be
 NOTE : For var and let value can be reassignable
 
 =>>>>>>>
-
 Premitive DataTypes
     Type      | Example               | Description
     String    | "Hello"               | Textual data
@@ -42,4 +41,15 @@ Premitive DataTypes
     BigInt    | 12345678901234567890n | For very large integers
     Symbol    | Symbol('id')          | Unique and immutable values
 
+NOTE : Primitive Data types are immutable and it tends to "Call by Value"
+<<<<<<<=
+
+=>>>>>>>
+Non Premitive DataTypes
+Object
+Array
+Function ==> In js function is also a object
+Date
+
+NOTE : Non Primitive Data types are mutable and it tends to "Call by Reference"
 <<<<<<<=
