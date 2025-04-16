@@ -1,1 +1,31 @@
-//Initial commit
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const
+
+* Automatically => x=10, y="devil"
+
+NOTE : It is considered good programming practice to always declare variables before use.
+
+=>>>>>>>
+* var => var name="ajju", var number=20
+    var in JavaScript is function-scoped, meaning it’s only visible within the function in which it is declared 
+    — even if it's inside a block like if, for, or {}
+<<<<<<<=
+
+=>>>>>>>
+* let => let name="Ajju", let number=20
+    let in JavaScript is block-scoped, which means it is only accessible within the block {} where it's declared.
+<<<<<<<=
+
+=>>>>>>>
+* const => const name="Ajju", const number=20
+    const is a block-scoped variable declaration, similar to let.
+    However, once a variable is declared with const, it cannot be reassigned.
+    If the variable holds an object or array, the contents can still be modified, but the variable itself cannot be reassigned to a new value.
+<<<<<<<=
+
+NOTE : For var and let value can be reassignable
