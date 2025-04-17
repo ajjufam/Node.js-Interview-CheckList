@@ -172,5 +172,14 @@ Lexical scope
     ಎಂಬುದರ ಬದಲು ಅವುಗಳನ್ನು ಬರೆಯಲಾದ ವ್ಯಾಪ್ತಿಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತವೆ.)
 <<<<<<<=
 
+=>>>>>>>
+Strict Mode ("use strict")
+    "use strict" is a special mode in JavaScript that helps you write safer and cleaner code by 
+    catching common mistakes.
+
+    "use strict";  // should be used in the top (means in first line)
+    x = 10;  // ❌ ReferenceError: x is not defined (need to initialized with let,const or var)
+<<<<<<<=
+
 
 
