@@ -161,5 +161,16 @@ Shadowing
     * The outer variable will become inaccessible until the code exists in the inner scope.
 <<<<<<<=
 
+=>>>>>>>
+Lexical scope
+    Lexical Scope means that a variable's scope is determined by its position in the source code 
+    — i.e., where it’s written.
+                or
+    JavaScript functions are lexically scoped, meaning they remember the scope in which they were written, 
+    not where they are called.
+    (ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ಫಂಕ್ಷನ್‌ಗಳನ್ನು ಲೆಕ್ಸಿಕಲ್ ಆಗಿ ಸ್ಕೋಪ್ ಮಾಡಲಾಗುತ್ತದೆ, ಅಂದರೆ ಅವು ಅವುಗಳನ್ನು ಎಲ್ಲಿ ಕರೆಯಲಾಗುತ್ತದೆ 
+    ಎಂಬುದರ ಬದಲು ಅವುಗಳನ್ನು ಬರೆಯಲಾದ ವ್ಯಾಪ್ತಿಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತವೆ.)
+<<<<<<<=
+
 
 
