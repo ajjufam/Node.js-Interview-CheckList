@@ -131,3 +131,13 @@ Closures
      A closure is a nested (inner) function that has access to the outer function’s variables, even after the
      outer function has finished executing.
 <<<<<<<=
+
+=>>>>>>>
+The Temporal Dead Zone is the time between when a variable is hoisted and when it is initialized.
+During this period, accessing the variable will throw a ReferenceError.
+
+Applies to:
+✅ let
+✅ const
+❌ "var" is not affected by TDZ — it's hoisted and initialized with "undefined".
+<<<<<<<=
