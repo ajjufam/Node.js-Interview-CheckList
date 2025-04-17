@@ -147,7 +147,6 @@ Temporal Dead Zone
 this
     "this" refers to the object that is executing the current function
 
-    NOTE : "this" will not works inside arrow funtions [()=>]
 <<<<<<<=
 
 =>>>>>>>
