@@ -133,11 +133,33 @@ Closures
 <<<<<<<=
 
 =>>>>>>>
-The Temporal Dead Zone is the time between when a variable is hoisted and when it is initialized.
-During this period, accessing the variable will throw a ReferenceError.
+Temporal Dead Zone
+    The Temporal Dead Zone is the time between when a variable is hoisted and when it is initialized.
+    During this period, accessing the variable will throw a ReferenceError.
 
-Applies to:
-✅ let
-✅ const
-❌ "var" is not affected by TDZ — it's hoisted and initialized with "undefined".
+    Applies to:
+    ✅ let
+    ✅ const
+    ❌ "var" is not affected by TDZ — it's hoisted and initialized with "undefined".
 <<<<<<<=
+
+=>>>>>>>
+this
+    "this" refers to the object that is executing the current function
+
+    NOTE : "this" will not works inside arrow funtions [()=>]
+<<<<<<<=
+
+=>>>>>>>
+Shadowing
+    Variable Shadowing in JavaScript occurs when the inner variable hides or overrides the outer variable 
+    within the local scope. In this situation, the outer variable cannot be accessed within the inner scope, 
+    only the inner variable is used in that scope.
+
+    * Variable Shadowing occurs when we declare the same name for the variable in the inner and outer scope.
+    * The inner variable will hide or override the outer variable.
+    * The outer variable will become inaccessible until the code exists in the inner scope.
+<<<<<<<=
+
+
+
