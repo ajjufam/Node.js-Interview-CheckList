@@ -1,0 +1,6 @@
+=======>
+Function Declaration
+    A Function Declaration is the most common way to define a function in JavaScript 
+    using the function keyword.
+<=======
+
