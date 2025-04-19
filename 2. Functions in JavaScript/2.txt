@@ -92,3 +92,11 @@ Anonymous Function
     An anonymous function is a function without a name.
     It's often used as a value—like passing to another function, assigning to a variable, etc.
 <=======
+
+=======>
+IIFE (Immediately Invoked Function Expressions)
+    An IIFE is a function that:
+    * Defines itself
+    * Immediately calls itself
+    * It runs as soon as it’s defined — no need to call it separately!
+<=======
