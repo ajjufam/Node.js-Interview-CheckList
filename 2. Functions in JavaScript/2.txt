@@ -39,3 +39,10 @@ Higher-Order Functions
         1. Takes another function as an argument, or
         2. Returns a function.
 <=======
+
+=======>
+Callback function
+    A callback function is a function that is passed as an argument to another function and is executed later, 
+    usually after some task is done.
+<=======
+
