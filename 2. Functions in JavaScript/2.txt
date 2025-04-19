@@ -72,7 +72,17 @@ Once it hits the base case, it starts returning the values back up the stack:
 
 =======>
 Pure Function
-A pure function is a function that:
-* Always returns the same output for the same input.
-* Doesn’t change anything outside itself (no side effects).
+    A pure function is a function that:
+    * Always returns the same output for the same input.
+    * Doesn’t change anything outside itself (no side effects).
+<=======
+
+=======>
+Impure Function
+    A function is impure if it:
+    * Modifies things outside itself (has side effects)
+    * Returns different output for the same input
+
+    NOTE : 
+    Using console inside function is also a impure function, bcz console is a side effect
 <=======
