@@ -46,3 +46,12 @@ Callback function
     usually after some task is done.
 <=======
 
+=======>
+Function Currying
+    A function with multiple arguments is transformed into a series of functions, 
+    each taking one argument at a time.
+
+    NOTE : Function Currying is a type of Higher-Order Function.
+    Because:
+    It returns another function — and that's exactly what a higher-order function does.
+<=======
