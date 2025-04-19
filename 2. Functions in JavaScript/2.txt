@@ -86,3 +86,9 @@ Impure Function
     NOTE : 
     Using console inside function is also a impure function, bcz console is a side effect
 <=======
+
+=======>
+Anonymous Function
+    An anonymous function is a function without a name.
+    It's often used as a value—like passing to another function, assigning to a variable, etc.
+<=======
