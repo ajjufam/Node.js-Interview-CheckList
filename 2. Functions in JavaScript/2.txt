@@ -32,3 +32,10 @@ First-Class Functions
         * passed as arguments,
         * returned from other functions.
 <=======
+
+=======>
+Higher-Order Functions
+        A Higher-Order Function is a function that does at least one of the following:
+        1. Takes another function as an argument, or
+        2. Returns a function.
+<=======
