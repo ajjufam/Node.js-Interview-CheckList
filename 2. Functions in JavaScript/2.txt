@@ -69,3 +69,10 @@ Recursion
 NOTE : 
 Once it hits the base case, it starts returning the values back up the stack:
 <=======
+
+=======>
+Pure Function
+A pure function is a function that:
+* Always returns the same output for the same input.
+* Doesn’t change anything outside itself (no side effects).
+<=======
