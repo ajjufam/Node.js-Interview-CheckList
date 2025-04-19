@@ -20,3 +20,7 @@ Diff B/W regular function and function expression
 // Example Call Before Def. | ✅ Works             | ❌ Error
 <=======
 
+=======>
+Arrow functions
+    Arrow functions are a shorter and cleaner way to write function expressions introduced in ES6.
+<=======
