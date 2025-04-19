@@ -24,3 +24,11 @@ Diff B/W regular function and function expression
 Arrow functions
     Arrow functions are a shorter and cleaner way to write function expressions introduced in ES6.
 <=======
+
+=======>
+First-Class Functions
+    In JavaScript, functions are treated as values, meaning they can be:
+        * stored in variables,
+        * passed as arguments,
+        * returned from other functions.
+<=======
