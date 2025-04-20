@@ -100,3 +100,10 @@ IIFE (Immediately Invoked Function Expressions)
     * Immediately calls itself
     * It runs as soon as it’s defined — no need to call it separately!
 <=======
+
+=======>
+call()
+    The call() method lets you call a function and explicitly set the value of this inside that function.
+
+    Used To borrow methods from one object and use them on another.
+<=======
