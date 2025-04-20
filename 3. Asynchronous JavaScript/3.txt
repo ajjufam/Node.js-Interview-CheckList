@@ -78,3 +78,14 @@ Promise Chaining
     * Avoid callback hell.
     * Keep code clean and readable.
 <=======
+
+=======>
+async/await
+    async/await is syntactic sugar over Promises.
+    It lets you write asynchronous code in a synchronous style, making it easier to read and maintain.
+
+    Why ?
+    * Cleaner than .then() chains
+    * Avoids callback hell
+    * Makes async code easier to understand
+<=======
