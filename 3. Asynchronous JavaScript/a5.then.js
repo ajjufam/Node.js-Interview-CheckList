@@ -20,3 +20,13 @@ const promise = new Promise((resolve, reject) => {
 promise.then((message) => {
   console.log(message); // Output after 1 sec: ✅ Data loaded
 });
+
+// Ex (API Call)
+fetch("https://wrong-api-url.com/data") //url wont works
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.error("API Error:", err);
+  });

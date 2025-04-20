@@ -49,3 +49,12 @@ then()
     Why
     To perform some action after the async task completes successfully — like getting API data, finishing a delay, etc.
 <=======
+
+=======>
+catch()
+    .catch() is a method used with Promises to handle errors or rejected promises.
+
+    Why ?
+    To safely handle errors that may happen during asynchronous operations — like network failures, 
+    bugs, or rejected promises.
+<=======
