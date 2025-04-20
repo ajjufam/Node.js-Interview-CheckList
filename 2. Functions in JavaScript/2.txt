@@ -116,3 +116,16 @@ apply()
     While call() takes arguments separately,
     apply() takes them as an array.
 <=======
+
+=======>
+bind()
+    bind() is a method that creates a new function with a specific this value permanently bound to it.
+    Unlike call() or apply(), which invoke the function immediately, bind() returns a new function 
+    that you can call later.
+<=======
+
+
+// Method  | What it does                           | When it runs
+// call()  | Changes this and calls immediately     | Now
+// apply() | Like call(), but with array args       | Now
+// bind()  | Returns a new function with bound this | Later
