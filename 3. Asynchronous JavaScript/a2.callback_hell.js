@@ -71,3 +71,9 @@ task1(function () {
 // Task 4 Done
 // Task 5 Done
 // Task 6 Done
+
+// 🔧 How to fix it?
+// You can avoid callback hell by using:
+// Named functions (instead of nesting)
+// Promises
+// Async/Await (most modern and readable)

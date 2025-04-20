@@ -16,4 +16,10 @@ Callback Hell
     Why
     When you have to do tasks in sequence, and each task depends on the result of the previous one 
     — especially in asynchronous code (like file reading, API requests, timers, etc).
+
+    🔧 How to fix it?
+    You can avoid callback hell by using:
+    Named functions (instead of nesting)
+    Promises
+    Async/Await (most modern and readable)
 <=======
