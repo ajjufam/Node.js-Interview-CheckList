@@ -23,3 +23,13 @@ Callback Hell
     Promises
     Async/Await (most modern and readable)
 <=======
+
+=======>
+Promises
+    Promises in Js is a eventual execution or failure of an asynchronous operation.
+
+    Why ?
+    * To avoid callback hell.
+    * To write cleaner, more readable asynchronous code.
+    * To handle success and failure easily using .then() and .catch().
+<=======
