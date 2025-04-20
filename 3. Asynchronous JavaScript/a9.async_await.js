@@ -20,6 +20,7 @@ function person(name, age) {
 }
 
 async function process() {
+  // create the async function
   console.log("Fetching Data ...");
   const data = await person("Devil", 22); // Pauses the execution
   console.log("Data:", data);
