@@ -129,3 +129,12 @@ bind()
 // call()  | Changes this and calls immediately     | Now
 // apply() | Like call(), but with array args       | Now
 // bind()  | Returns a new function with bound this | Later
+
+=======>
+arguments objects
+    arguments is an array-like object available inside regular functions (not arrow functions) that 
+    holds all the arguments passed to the function.
+
+    * To access arguments without knowing how many were passed.
+    * Useful for functions that accept a variable number of arguments.
+<=======
