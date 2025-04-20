@@ -7,3 +7,13 @@ Callbacks
     * To handle asynchronous operations (like API calls, reading files).
     * To execute code in order — like “do this, then do that”.
 <=======
+
+=======>
+Callback Hell 
+    Callback Hell is when multiple nested callbacks are used, making the code look like a "pyramid" or 
+    "staircase", and it's hard to read, maintain, or debug.
+
+    Why
+    When you have to do tasks in sequence, and each task depends on the result of the previous one 
+    — especially in asynchronous code (like file reading, API requests, timers, etc).
+<=======
