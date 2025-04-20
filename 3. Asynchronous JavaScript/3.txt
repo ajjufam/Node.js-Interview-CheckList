@@ -41,3 +41,11 @@ Promise States (pending, fulfilled, rejected)
     fulfilled | The operation completed successfully (resolved).
     rejected  | The operation failed (rejected with an error).
 <=======
+
+=======>
+then()
+    .then() is a method used with Promises to handle the result when the promise is fulfilled (successful).
+
+    Why
+    To perform some action after the async task completes successfully — like getting API data, finishing a delay, etc.
+<=======
