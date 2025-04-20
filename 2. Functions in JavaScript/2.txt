@@ -107,3 +107,12 @@ call()
 
     Used To borrow methods from one object and use them on another.
 <=======
+
+=======>
+apply()
+    apply() is just like call() — it allows you to call a function and set the this context.
+
+    🔑 The only difference:
+    While call() takes arguments separately,
+    apply() takes them as an array.
+<=======

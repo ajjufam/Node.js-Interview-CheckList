@@ -10,7 +10,6 @@
 // functionName.call(thisArg, arg1, arg2, ...);
 
 // thisArg: The value you want this to refer to
-
 // arg1, arg2: Optional arguments passed to the function
 
 // ex 1
