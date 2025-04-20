@@ -58,3 +58,12 @@ catch()
     To safely handle errors that may happen during asynchronous operations — like network failures, 
     bugs, or rejected promises.
 <=======
+
+=======>
+finally()
+    .finally() is a method that runs after a Promise is settled, no matter if it was resolved or rejected.
+
+    Why ?
+    To run cleanup code or final actions — like hiding a loader, closing a connection, etc. — 
+    whether the operation succeeded or failed.
+<=======
