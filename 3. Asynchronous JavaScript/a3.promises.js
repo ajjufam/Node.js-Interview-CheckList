@@ -1,6 +1,11 @@
 // Promises
 //     Promises in Js is a eventual execution or failure of an asynchronous operation.
 
+// ✅ States of a Promise
+// Pending – Initial state.
+// Fulfilled – Operation completed successfully.
+// Rejected – Operation failed.
+
 //     Why ?
 //     * To avoid callback hell.
 //     * To write cleaner, more readable asynchronous code.

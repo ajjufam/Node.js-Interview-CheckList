@@ -33,3 +33,11 @@ Promises
     * To write cleaner, more readable asynchronous code.
     * To handle success and failure easily using .then() and .catch().
 <=======
+
+=======>
+Promise States (pending, fulfilled, rejected)
+    State     | What It Means
+    pending   | The initial state — the promise is still processing.
+    fulfilled | The operation completed successfully (resolved).
+    rejected  | The operation failed (rejected with an error).
+<=======
