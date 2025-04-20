@@ -67,3 +67,14 @@ finally()
     To run cleanup code or final actions — like hiding a loader, closing a connection, etc. — 
     whether the operation succeeded or failed.
 <=======
+
+=======>
+Promise Chaining
+    Promise chaining is when you attach multiple .then() handlers one after another to handle 
+    sequential asynchronous operations.
+
+    Why 
+    * Handle multiple async steps in order.
+    * Avoid callback hell.
+    * Keep code clean and readable.
+<=======
