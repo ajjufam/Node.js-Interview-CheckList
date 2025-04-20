@@ -138,3 +138,11 @@ arguments objects
     * To access arguments without knowing how many were passed.
     * Useful for functions that accept a variable number of arguments.
 <=======
+
+=======>
+Default Parameters
+    Default parameters allow you to set default values for function parameters if 
+    no value or undefined is passed.
+
+    Used To avoid undefined values and make your function more reliable by setting fallback/defaults.
+<=======
