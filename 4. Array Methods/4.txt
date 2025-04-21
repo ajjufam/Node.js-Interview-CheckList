@@ -24,3 +24,16 @@ filter()
     Why ?
     To select specific elements from an array based on a condition, without changing the original array.
 <=======
+
+=======>
+a4.
+reduce()
+    The reduce() method reduces an array to a single value by running a callback function on each element, 
+    while carrying forward an accumulator.
+
+    Why ?
+    Use it when you want to accumulate or combine values in an array into:
+    a single number (like sum or product),
+    an object,
+    or even another array.
+<=======
