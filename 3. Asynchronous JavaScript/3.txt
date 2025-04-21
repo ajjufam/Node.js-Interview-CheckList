@@ -89,3 +89,13 @@ async/await
     * Avoids callback hell
     * Makes async code easier to understand
 <=======
+
+=======>
+Error Handling in async code
+    Why ?
+    Because async functions use Promises, and like any Promise, they can fail (get rejected).
+    Without handling, errors can crash your app or leave you wondering what went wrong.
+
+    How ?
+    Use try...catch blocks inside async functions.
+<=======
