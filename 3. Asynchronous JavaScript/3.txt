@@ -146,3 +146,13 @@ Promise.allSettled
     Why ?
     Use it when you want the outcome of every promise, regardless of whether it succeeded or failed.
 <=======
+
+=======>
+b5.
+Promise.any
+    Promise.any() takes multiple promises and returns the first one that fulfills (resolves successfully).
+
+    Why ?
+    Use it when you want the result of the first successful promise — and you're okay ignoring failures.
+<=======
+
