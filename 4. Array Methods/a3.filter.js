@@ -39,3 +39,15 @@ const elements = ["a", "b", "c", "d"];
 const basedOnIndex = elements.filter((_, index) => index % 2 == 0);
 console.log(basedOnIndex);
 // [ 'a', 'c' ]
+
+// ⚠️ Key Points:
+// Returns a new array.
+// Original array is unchanged.
+// Only includes elements where callback returns true.
+
+//Summary
+// Feature            | filter()
+// Changes original?  | ❌ No
+// Returns new array? | ✅ Yes
+// Used for?          | Selecting items that meet criteria
+// Callback args      | value, index, array
