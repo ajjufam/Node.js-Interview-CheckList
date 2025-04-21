@@ -15,3 +15,12 @@ map()
     Why ?
     To transform array elements without changing the original array.
 <=======
+
+=======>
+a3.
+filter()
+    filter() creates a new array with only those elements that pass a condition (i.e., the callback returns true).
+
+    Why ?
+    To select specific elements from an array based on a condition, without changing the original array.
+<=======
