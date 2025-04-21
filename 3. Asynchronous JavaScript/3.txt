@@ -136,3 +136,13 @@ Promise.race
     Setting timeouts ⏱️
     Getting the fastest API response ⚡
 <=======
+
+=======>
+b4.
+Promise.allSettled
+    Promise.allSettled() takes multiple promises and returns a single promise that resolves when all of 
+    them have settled, meaning either resolved ✅ or rejected ❌.
+
+    Why ?
+    Use it when you want the outcome of every promise, regardless of whether it succeeded or failed.
+<=======

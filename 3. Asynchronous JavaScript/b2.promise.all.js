@@ -29,3 +29,10 @@ const p5 = Promise.reject("Something went wrong");
 Promise.all([p4, p5])
   .then((resolve) => console.log("Resolved :", resolve))
   .catch((reject) => console.log("Rejected :", reject)); // Rejected : Something went wrong
+
+// Summary
+// Feature       | Behavior
+// Runs promises | In parallel
+// Resolves      | When all promises are fulfilled
+// Rejects       | If even one promise rejects
+// Use case      | Multiple API calls or async tasks

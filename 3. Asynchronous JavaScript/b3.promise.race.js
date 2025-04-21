@@ -50,3 +50,9 @@ Promise.race([rejectFast, resolveSlow])
   .catch((error) => {
     console.log("Error :", error);
   });
+
+//Summary
+// Feature          | Description
+// Runs promises    | In parallel
+// Resolves/Rejects | As soon as any one promise settles
+// Use case         | First-come-first-serve tasks, timeouts
