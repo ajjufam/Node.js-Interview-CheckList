@@ -1,4 +1,5 @@
 =======>
+a1.
 Callbacks
     A callback is a function passed as an argument to another function and is called later 
     (after some operation completes).
@@ -9,6 +10,7 @@ Callbacks
 <=======
 
 =======>
+a2.
 Callback Hell 
     Callback Hell is when multiple nested callbacks are used, making the code look like a "pyramid" or 
     "staircase", and it's hard to read, maintain, or debug.
@@ -25,6 +27,7 @@ Callback Hell
 <=======
 
 =======>
+a3.
 Promises
     Promises in Js is a eventual execution or failure of an asynchronous operation.
 
@@ -35,6 +38,7 @@ Promises
 <=======
 
 =======>
+a4.
 Promise States (pending, fulfilled, rejected)
     State     | What It Means
     pending   | The initial state — the promise is still processing.
@@ -43,6 +47,7 @@ Promise States (pending, fulfilled, rejected)
 <=======
 
 =======>
+a5.
 then()
     .then() is a method used with Promises to handle the result when the promise is fulfilled (successful).
 
@@ -51,6 +56,7 @@ then()
 <=======
 
 =======>
+a6.
 catch()
     .catch() is a method used with Promises to handle errors or rejected promises.
 
@@ -60,6 +66,7 @@ catch()
 <=======
 
 =======>
+a7.
 finally()
     .finally() is a method that runs after a Promise is settled, no matter if it was resolved or rejected.
 
@@ -69,6 +76,7 @@ finally()
 <=======
 
 =======>
+a8.
 Promise Chaining
     Promise chaining is when you attach multiple .then() handlers one after another to handle 
     sequential asynchronous operations.
@@ -80,6 +88,7 @@ Promise Chaining
 <=======
 
 =======>
+a9.
 async/await
     async/await is syntactic sugar over Promises.
     It lets you write asynchronous code in a synchronous style, making it easier to read and maintain.
@@ -91,6 +100,7 @@ async/await
 <=======
 
 =======>
+b1.
 Error Handling in async code
     Why ?
     Because async functions use Promises, and like any Promise, they can fail (get rejected).
@@ -98,4 +108,19 @@ Error Handling in async code
 
     How ?
     Use try...catch blocks inside async functions.
+<=======
+
+=======>
+b2.
+Promise.all
+    Promise.all is a method that takes multiple promises and runs them in parallel.
+    It waits for all of them to finish, and then gives you the results.
+
+    Why ?
+    To run many promises at the same time, and wait for all of them before continuing.
+
+    VVVIMPPPPP
+     It returns:
+     ✅ a single promise that resolves when all given promises resolve.
+     ❌ if any promise fails (rejects), the whole Promise.all fails.
 <=======
