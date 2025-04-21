@@ -1,0 +1,8 @@
+=======>
+a1.
+forEach()
+    forEach() is an array method that executes a callback function once for each element in an array — in order.
+
+     Why ?
+     To iterate over an array and perform an action (like logging or modifying something externally) for each item.
+<=======
