@@ -124,3 +124,15 @@ Promise.all
      ✅ a single promise that resolves when all given promises resolve.
      ❌ if any promise fails (rejects), the whole Promise.all fails.
 <=======
+
+=======>
+b3.
+Promise.race
+    Promise.race takes multiple promises and returns a single promise that settles as soon as the 
+    first one settles (either resolves ✅ or rejects ❌).
+
+    Why ?
+    To get the result of whichever promise finishes first, useful for:
+    Setting timeouts ⏱️
+    Getting the fastest API response ⚡
+<=======
