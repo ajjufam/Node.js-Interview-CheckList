@@ -1,0 +1,46 @@
+https://visualgo.net/en/sorting
+
+=======>
+Bubble Sort
+    Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+    It keeps "bubbling" the largest value to the end in each pass — like bubbles rising in water 💧.
+
+    How ?
+    * Compare two adjacent elements.
+    * Swap if the left is greater than the right.
+    * Repeat until the array is sorted.
+
+Algorithm 
+    1. Start from the beginning of the array.
+    2. Compare the current element with the next element.
+    3. If the current element is greater than the next one, swap them.
+    4. Move to the next pair of elements and repeat Step 2–3.
+    5. After one full pass, the largest element will be at the end of the array.
+    6. Repeat the above steps for the remaining (unsorted) portion of the array.
+    7. Stop when no swaps are needed in a full pass (i.e., array is sorted).
+
+Time Complexity
+    Case    | Time
+    Best    | O(n) (Already sorted)
+    Average | O(n²)
+    Worst   | O(n²)
+    Space   | O(1)
+<=======
+
+=======>
+Insertion Sort
+    Insertion Sort builds the final sorted array one item at a time. It’s similar to how you might sort playing cards in your hand.
+
+    How ?
+    * Start from the second element (index 1).
+    * Compare it with the elements before.
+    * Shift all greater elements one position to the right.
+    * Insert the current element in the correct position.
+
+Time Complexity
+    Case    | Time
+    Best    | O(n) (alreay sorted)
+    Average | O(n²)
+    Worst   | O(n²)
+    Space   | O(1)
+<=======
