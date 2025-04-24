@@ -1,6 +1,7 @@
 https://visualgo.net/en/sorting
 
 =======>
+a1.
 Bubble Sort
     Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
     It keeps "bubbling" the largest value to the end in each pass — like bubbles rising in water 💧.
@@ -28,6 +29,7 @@ Time Complexity
 <=======
 
 =======>
+a2.
 Insertion Sort
     Insertion Sort builds the final sorted array one item at a time. It’s similar to how you might sort playing cards in your hand.
 
@@ -43,4 +45,21 @@ Time Complexity
     Average | O(n²)
     Worst   | O(n²)
     Space   | O(1)
+<=======
+
+=======>
+a3.
+Selection Sort
+    Selection Sort is a simple comparison-based sorting algorithm.
+    It works by repeatedly finding the minimum element from the unsorted part and putting it at the beginning.
+
+    Why ?
+    Easy to understand and implement.
+    Good for small datasets.
+    Does not require extra memory (in-place sorting).
+    Not the most efficient for large arrays
+
+    Time Complexity -(n²) - for best, average, and worst
+    space complexity - O(1) - no extra space used
+    When to Use -- 	For small data or learning purposes
 <=======
