@@ -63,3 +63,17 @@ Selection Sort
     space complexity - O(1) - no extra space used
     When to Use -- 	For small data or learning purposes
 <=======
+
+=======>
+a3.
+Merge Sort
+    Merge Sort is a divide and conquer algorithm that:
+    1. Divides the array into halves,
+    2. Sorts each half recursively,
+    3. Merges the sorted halves back together.
+
+    Why ?
+    Very efficient for large datasets.
+    Stable sort (maintains order of equal elements).
+    Consistent O(n log n) time complexity.
+<=======
