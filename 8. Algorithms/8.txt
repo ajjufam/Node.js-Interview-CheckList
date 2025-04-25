@@ -270,3 +270,31 @@ Back Tracking
     How              | Recursion + undoing choices
     Example Use Case | Subsets, permutations, N-Queens, Sudoku
 <=======
+
+=======>
+b4.
+Divide and Conquer
+    Divide and Conquer is a powerful algorithm design pattern where:
+    🧩 You divide the problem into smaller sub-problems.
+    🧠 Conquer (solve) each sub-problem recursively.
+    🔗 Combine the results to get the final solution.
+
+    Why ?
+    Great for breaking down large problems
+    Used in efficient sorting and searching algorithms
+    Often reduces time complexity from O(n²) to O(n log n) or better
+
+    Ex 
+    Algorithm          | Uses Divide & Conquer?
+    Merge Sort         | ✅ Yes
+    Quick Sort         | ✅ Yes
+    Binary Search      | ✅ Yes
+    Karatsuba Multiply | ✅ Yes
+
+    Summary 
+    🔸 Concept | 🧠 Explanation
+    What       | Break a big problem → smaller pieces → solve recursively
+    Why        | Efficient and clean solutions to hard problems
+    Key Steps  | Divide → Conquer → Combine
+    Used In    | Merge Sort, Quick Sort, Binary Search
+<=======
