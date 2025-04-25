@@ -127,3 +127,13 @@ pop()
     Why ?
     Use it when you want to remove the last item from an array.
 <=======
+
+=======>
+b5.
+shift()
+    The shift() method in JavaScript removes the first element from an array 
+    and returns that removed element.
+
+    Why ?
+    Use it when you want to remove the first item of an array.
+<=======

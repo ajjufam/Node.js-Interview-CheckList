@@ -5,8 +5,8 @@
 //     Why ?
 //     Use it when you want to remove the last item from an array.
 
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 55];
 let popped = arr.pop();
 
-console.log(popped); // 5
+console.log(popped); // 55 (Removed element)
 console.log(arr); // [1,2,3,4]
