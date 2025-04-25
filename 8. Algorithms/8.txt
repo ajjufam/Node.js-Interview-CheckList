@@ -318,3 +318,35 @@ Greedy Algorithm
     Used In    | Coin change, Activity selection, Huffman coding, Kruskal’s MST
     Caution    | Doesn’t always give the best solution for every case
 <=======
+
+=======>
+b6.
+Dynamic Programming (DP)
+    Dynamic Programming is a technique to solve problems by breaking them down into smaller subproblems, 
+    solving each only once, and storing their results (memoization or tabulation).
+    🔁 It’s useful when subproblems repeat — known as overlapping subproblems and optimal substructure.
+
+    Why ?
+    * Avoid redundant calculations (unlike recursion alone)
+    * Great for optimization problems (max/min/count)
+    * Converts exponential time to polynomial time
+
+    Ex 
+    * Fibonacci numbers
+    * Knapsack problem
+    * Longest common subsequence
+    * Climbing stairs
+    * Coin change
+
+    Approach
+    Approach  | Technique
+    Top-Down  | Recursion + Memoization
+    Bottom-Up | Tabulation (Iterative)
+
+    Summary 
+    🧩 Concept  | 🧠 Description
+    What        | Solve subproblems and store their solutions
+    Why         | Optimizes recursive problems, saves time & space
+    How         | Memoization (top-down) or Tabulation (bottom-up)
+    Used For    | Fib, Knapsack, LCS, Climbing Stairs, etc.
+<=======
