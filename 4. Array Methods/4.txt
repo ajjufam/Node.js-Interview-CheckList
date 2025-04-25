@@ -226,3 +226,14 @@ fill()
     Why ?
     Use it when you want to quickly initialize or overwrite array elements with the same value.
 <=======
+
+=======>
+c6.
+from()
+    The Array.from() method in JavaScript creates a new array from:
+    * array-like objects (like strings, NodeLists)
+    * or iterables (like sets, maps)
+
+    Why ?
+    Use it when you want to convert something into an array or create an array with custom values.
+<=======
