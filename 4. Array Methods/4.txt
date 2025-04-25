@@ -137,3 +137,13 @@ shift()
     Why ?
     Use it when you want to remove the first item of an array.
 <=======
+
+=======>
+b6.
+unshift()
+    The unshift() method in JavaScript adds one or more elements to the beginning of an array 
+    and returns the new length of the array.
+
+    Why ?
+    Use it when you want to add items to the start of an array.
+<=======
