@@ -11,5 +11,8 @@ let arr2 = [4, 5, 6];
 const concat = arr1.concat(arr2);
 console.log(concat); // [ 1, 2, 3, 4, 5, 6 ]
 
+const concat1 = arr1.concat([7, 8]);
+console.log(concat1); // [ 1, 2, 3, 7, 8 ]
+
 console.log(arr1); // [ 1, 2, 3 ]
 console.log(arr2); // [ 4, 5, 6 ]
