@@ -65,7 +65,7 @@ Selection Sort
 <=======
 
 =======>
-a3.
+a4.
 Merge Sort
     Merge Sort is a divide and conquer algorithm that:
     1. Divides the array into halves,
@@ -76,4 +76,17 @@ Merge Sort
     Very efficient for large datasets.
     Stable sort (maintains order of equal elements).
     Consistent O(n log n) time complexity.
+<=======
+
+=======>
+a5.
+Quick Sort
+    Quick Sort is a Divide & Conquer algorithm.
+    It selects a pivot, partitions the array around it, and recursively sorts the sub-arrays.
+
+    Why ?
+    Efficient for large datasets
+    Average Time: O(n log n)
+    Worst-case: O(n²) (rare, can be avoided with random pivots)
+    In-place and fast in practice
 <=======
