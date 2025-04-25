@@ -48,3 +48,12 @@ some()
     It is useful when you want to test if any item in the array meets a specific condition, without needing 
     to check every item or loop through the entire array manually.
 <=======
+
+=======>
+a6.
+every()
+    The every() method in JavaScript checks if every element in an array satisfies a given condition.
+
+    Why ?
+    It is useful when you want to test if all items in the array meet a specific condition.
+<=======
