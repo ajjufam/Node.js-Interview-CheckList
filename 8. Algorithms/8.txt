@@ -155,3 +155,31 @@ Recursion
     Useful for            | Tree, graphs, math problems
     Risk                  | Stack overflow (if not handled well)
 <=======
+
+=======>
+a9.
+Two Pointer Technique
+    The Two Pointer Technique is a method where you use two pointers (variables) to traverse 
+    data (like arrays) from different ends or directions.
+
+    Why ?
+    Efficient for sorted arrays
+    Reduces time complexity
+    Commonly used in:
+        * Finding pairs
+        * Reversing arrays
+        * Removing duplicates
+        * Merging arrays
+
+    How ?
+    One pointer starts at the beginning
+    The other starts at the end (or another place)
+    Move them based on some logic or condition
+
+    Summary 
+    Concept       | Explanation
+    What          | Using two pointers to traverse array
+    Use Cases     | Search, reverse, sort, remove duplicates
+    Works best on | Sorted arrays or lists
+    Benefit       | Efficient & easy to implement
+<=======
