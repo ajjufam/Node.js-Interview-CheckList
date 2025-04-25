@@ -90,3 +90,25 @@ Quick Sort
     Worst-case: O(n²) (rare, can be avoided with random pivots)
     In-place and fast in practice
 <=======
+
+=======>
+a6.
+Linear Search
+    Linear Search is the simplest search algorithm.
+    It checks each element one by one until the desired value is found or the array ends.
+
+    Why ?
+    Best for small datasets
+    No sorting required
+    Works on unsorted arrays
+    Very easy to implement
+
+    Summary 
+    Feature         | Detail
+    Type            | Search Algorithm
+    Time Complexity | O(n)
+    Space           | O(1)
+    When to use     | Small or unsorted arrays
+    Stable          | ✅ Yes
+    Simple          | ✅ Very Easy
+<=======
