@@ -117,3 +117,13 @@ push()
     Why ?
     Use it when you want to add items to the end of an array.
 <=======
+
+=======>
+b4.
+pop()
+    The pop() method in JavaScript removes the last element from an array and returns 
+    that removed element.
+
+    Why ?
+    Use it when you want to remove the last item from an array.
+<=======
