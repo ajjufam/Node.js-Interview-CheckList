@@ -216,3 +216,13 @@ sort()
     Why ?
     Use it to arrange items in order (like alphabetically or numerically).
 <=======
+
+=======>
+c5.
+fill()
+    The fill() method in JavaScript fills all or part of an array with a static value. 
+    It modifies the original array.
+
+    Why ?
+    Use it when you want to quickly initialize or overwrite array elements with the same value.
+<=======
