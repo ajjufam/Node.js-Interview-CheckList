@@ -107,3 +107,13 @@ lastIndexOf()
     Why ?
     Use it when you want to find the last position a value appears in an array.
 <=======
+
+=======>
+b3.
+push()
+    The push() method in JavaScript adds one or more elements to the end of an array and returns 
+    the new length of the array.
+
+    Why ?
+    Use it when you want to add items to the end of an array.
+<=======
