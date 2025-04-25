@@ -186,3 +186,13 @@ flat()
     Why ?
     Use it when you want to remove nesting from arrays.
 <=======
+
+=======>
+c2.
+flatMap()
+    The flatMap() method in JavaScript first maps each element using a function, 
+    then flattens the result one level deep.
+
+    Why ?
+    Use it when you want to transform + flatten an array in one step.
+<=======
