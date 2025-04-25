@@ -177,3 +177,12 @@ splice()
     Why ?
     Use it when you need to insert, delete, or replace items directly in the array.
 <=======
+
+=======>
+c1.
+flat()
+    The flat() method in JavaScript is used to flatten nested arrays into a single-level array.
+
+    Why ?
+    Use it when you want to remove nesting from arrays.
+<=======
