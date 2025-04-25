@@ -1,3 +1,5 @@
+// OPtional
+
 // Merge Sort
 //     Merge Sort is a divide and conquer algorithm that:
 //     1. Divides the array into halves,
