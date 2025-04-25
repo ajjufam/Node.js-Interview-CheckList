@@ -67,3 +67,13 @@ find()
     Why ?
     It is useful when you want to retrieve the first matching element based on a specific condition in the array.
 <=======
+
+=======>
+a8.
+findIndex()
+    The findIndex() method in JavaScript is used to find the index of the first element in an array that satisfies a given condition.
+    If no element satisfies the condition, it returns -1.
+
+    Why ?
+    It is useful when you need to know the index of the first element that meets a specific condition, rather than the element itself.
+<=======
