@@ -112,3 +112,23 @@ Linear Search
     Stable          | ✅ Yes
     Simple          | ✅ Very Easy
 <=======
+
+=======>
+a7.
+Binary Search
+    Binary Search is an efficient algorithm to find an element in a sorted 
+    array by repeatedly dividing the search space in half.
+
+    Why ?
+    Much faster than Linear Search for large, sorted arrays
+    Time Complexity: O(log n)
+    Requires the array to be sorted
+
+    Summary 
+    Feature         | Detail
+    Type            | Search Algorithm
+    Time Complexity | O(log n)
+    Space           | O(1)
+    Sorted Required | ✅ Yes
+    Faster than     | Linear Search on large datasets
+<=======
