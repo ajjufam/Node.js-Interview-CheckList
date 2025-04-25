@@ -167,3 +167,13 @@ slice()
     Why ?
     Use it when you want to get a subarray (part of an array) without affecting the original one.
 <=======
+
+=======>
+b9.
+splice()
+    The splice() method in JavaScript is used to add, remove, or replace elements in an array. 
+    It modifies the original array.
+
+    Why ?
+    Use it when you need to insert, delete, or replace items directly in the array.
+<=======
