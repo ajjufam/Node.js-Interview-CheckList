@@ -206,3 +206,13 @@ reverse()
     Why ?
     Use it when you want to flip the order of items in an array.
 <=======
+
+=======>
+c4.
+sort()
+    The sort() method in JavaScript sorts the elements of an array in place (modifies the original array) 
+    and by default, sorts as strings.
+
+    Why ?
+    Use it to arrange items in order (like alphabetically or numerically).
+<=======
