@@ -147,3 +147,13 @@ unshift()
     Why ?
     Use it when you want to add items to the start of an array.
 <=======
+
+=======>
+b7.
+concat()
+    The concat() method in JavaScript is used to combine two or more arrays into a new array. 
+    It does not change the original arrays.
+
+    Why ?
+    Use it when you want to merge arrays without modifying the originals.
+<=======
