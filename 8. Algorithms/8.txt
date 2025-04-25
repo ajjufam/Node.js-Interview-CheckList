@@ -298,3 +298,23 @@ Divide and Conquer
     Key Steps  | Divide → Conquer → Combine
     Used In    | Merge Sort, Quick Sort, Binary Search
 <=======
+
+=======>
+b5.
+Greedy Algorithm
+    A Greedy Algorithm is an approach where you:
+    "Make the best choice at each step, hoping it leads to the global optimum."
+    It does not backtrack or look ahead—just picks the most beneficial move at the moment.
+
+    Why ?
+    🔥 Fast and simple
+    🧠 Works well for specific problems where local optima lead to global optima
+    ⚠️ Doesn't always guarantee the best solution for every problem
+
+    Summary 
+    🔸 Feature | ✅ Description
+    What       | Pick the best choice at each step
+    Why        | Fast and works for problems with optimal substructure
+    Used In    | Coin change, Activity selection, Huffman coding, Kruskal’s MST
+    Caution    | Doesn’t always give the best solution for every case
+<=======
