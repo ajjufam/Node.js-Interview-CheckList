@@ -207,3 +207,36 @@ Sliding Window Technique
     Benefits     | Improves performance, replaces nested loops
     Common Tasks | Max/min sum, unique chars, pattern matching
 <=======
+
+=======>
+b2.
+Hashing
+    Hashing is the process of converting data (like a string or number) into a fixed-size value 
+    (called a hash) — usually done using a hash function.
+    Think of it as:
+    🔑 Input → hashFunction() → 🔒 Hashed Value
+
+    Why ?
+    🔍 Fast data access (constant time O(1))
+    🔐 Secure storage (like passwords)
+    💡 Used in data structures like Hash Tables (i.e., Map or Object in JS)
+
+    How ?
+    You maintain a window (subset of elements) that "slides" over the data:
+    * Keep track of a start and end
+    * Move one or both to grow/shrink the window
+    * Update the result based on current window
+
+    Use Cases 
+    Hash Maps / Hash Tables
+    Checking duplicates in arrays
+    Password storage with hashing
+    Data lookup and retrieval
+
+    Summary 
+    🔸 Feature | 🔍 Description
+    What       | Converts input into a fixed-size output
+    Why        | Fast lookups, duplicate checks, secure data
+    In JS      | Objects, Maps, crypto module
+    Use Cases  | Passwords, sets, dictionaries, caching
+<=======
