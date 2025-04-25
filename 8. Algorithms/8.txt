@@ -183,3 +183,27 @@ Two Pointer Technique
     Works best on | Sorted arrays or lists
     Benefit       | Efficient & easy to implement
 <=======
+
+=======>
+b1.
+Sliding Window Technique
+    The Sliding Window technique is used to reduce the time complexity when dealing with 
+    contiguous blocks of data in arrays or strings.
+
+    Why ?
+    * Efficient for problems with subarrays, substrings, or fixed-length patterns
+    * Reduces nested loops → better performance (often from O(n²) to O(n))
+
+    How ?
+    You maintain a window (subset of elements) that "slides" over the data:
+    * Keep track of a start and end
+    * Move one or both to grow/shrink the window
+    * Update the result based on current window
+
+    Summary 
+    Concept      | Explanation
+    What         | A technique using a "window" (subarray or string)
+    Use Cases    | Subarrays, substrings, longest/shortest patterns
+    Benefits     | Improves performance, replaces nested loops
+    Common Tasks | Max/min sum, unique chars, pattern matching
+<=======
