@@ -57,3 +57,13 @@ every()
     Why ?
     It is useful when you want to test if all items in the array meet a specific condition.
 <=======
+
+=======>
+a7.
+find()
+    The find() method in JavaScript is used to find and return the first element in an array that satisfies 
+    a given condition. If no element is found, it returns undefined.
+
+    Why ?
+    It is useful when you want to retrieve the first matching element based on a specific condition in the array.
+<=======
