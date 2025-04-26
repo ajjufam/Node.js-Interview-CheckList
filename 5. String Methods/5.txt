@@ -215,6 +215,11 @@ padEnd()
     formatting data for alignment in tables or displaying fixed-length strings.
 <=======
 
-c6
+=======>
+c6.
 repeat()
+    repeat() in JavaScript repeats a string a specified number of times and returns the new string.
+
+    Why?
+    Use it when you need to repeat a string multiple times, such as for generating patterns or repeating characters.
 <=======
