@@ -96,6 +96,10 @@ toLowerCase()
 =======>
 b2.
 slice()
+    slice() in JavaScript cuts a part of a string and returns it as a new string.
+
+    Why?
+    Use it when you want to take out part of a string (without changing the original).
 <=======
 
 =======>
