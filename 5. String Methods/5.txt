@@ -160,6 +160,10 @@ replaceAll()
 =======>
 b9.
 trim()
+    trim() in JavaScript removes whitespace (spaces, tabs, newlines) from the beginning and end of a string.
+
+    Why?
+    Use it when you want to clean up a string by removing unwanted spaces at the start or end, but keep the inner spaces intact.
 <=======
 
 =======>
