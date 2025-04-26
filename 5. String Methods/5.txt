@@ -133,6 +133,10 @@ split()
 =======>
 b6.
 join()
+    join() in JavaScript joins all elements of an array into a single string.
+
+    Why?
+    Use it when you want to combine array items into one string (with or without a separator).
 <=======
 
 =======>
