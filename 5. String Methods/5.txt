@@ -115,6 +115,10 @@ substring()
 =======>
 b4.
 substr()
+    substr() in JavaScript extracts part of a string, starting from a position, for a given length.
+
+    Why?
+    Use it when you want to cut a piece of a string based on start position + how many characters you want.
 <=======
 
 =======>
