@@ -69,6 +69,10 @@ charAt()
 =======>
 a8.
 charCodeAt()
+    charCodeAt() in JavaScript returns the Unicode number (ASCII code) of the character at a specific index.
+
+    Why?
+    Use it when you need to know the Unicode/ASCII value of a character.
 <=======
 
 =======>
