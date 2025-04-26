@@ -36,3 +36,13 @@ includes()
     Why ?
     Use it when you want to simply check if something exists inside a string.
 <=======
+
+=======>
+a5.
+startsWith()
+    startsWith() in JavaScript checks if a string begins with a specific character or substring.
+    It returns true or false.
+
+    Why ?
+    Use it when you want to know if a string starts with something specific.
+<=======
