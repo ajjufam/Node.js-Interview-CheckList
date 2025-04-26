@@ -6,5 +6,9 @@
 //     Use it when you want to know where something appears (its position) inside an array or string.
 
 let str = "hello hello";
-let indexOf = str.indexOf("o"); // first index of 'o'
+
+let indexOf = str.indexOf("o"); // 4 (first index of 'o')
+let index1 = str.indexOf("z"); // -1 ('z' is not available in the above str)
+
 console.log(indexOf);
+console.log(index1);
