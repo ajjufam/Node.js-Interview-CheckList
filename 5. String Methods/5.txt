@@ -124,6 +124,10 @@ substr()
 =======>
 b5.
 split()
+    split() in JavaScript divides a string into an array based on a separator.
+
+    Why?
+    Use it when you want to break a string into parts (words, letters, etc.).
 <=======
 
 =======>
