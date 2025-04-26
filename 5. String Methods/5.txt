@@ -105,6 +105,11 @@ slice()
 =======>
 b3.
 substring()
+    substring() in JavaScript gets part of a string between two indexes and returns it as a new string.
+
+    Why?
+    Use it when you want to extract some part of a string — similar to slice() but behaves slightly 
+    differently with negative numbers.
 <=======
 
 =======>
