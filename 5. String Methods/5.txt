@@ -198,6 +198,11 @@ concat()
 =======>
 c4.
 padStart()
+    padStart() in JavaScript pads a string from the beginning to a specific length with a specified character or string.
+
+    Why?
+    Use it when you want to ensure a string reaches a certain length by adding characters at the start, such as 
+    padding numbers with leading zeros.
 <=======
 
 =======>
