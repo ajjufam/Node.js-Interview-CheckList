@@ -189,6 +189,10 @@ trimEnd()
 =======>
 c3.
 concat()
+    concat() in JavaScript is used to combine multiple strings into one string.
+
+    Why?
+    Use it when you want to join two or more strings together into a single string.
 <=======
 
 =======>
