@@ -142,6 +142,10 @@ join()
 =======>
 b7.
 replace()
+    replace() in JavaScript replaces a part of a string with a new substring.
+
+    Why?
+    Use it when you want to swap a specific part of the string with something else.
 <=======
 
 =======>
