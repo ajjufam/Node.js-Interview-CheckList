@@ -16,3 +16,13 @@ indexOf()
     Why ?
     Use it when you want to know where something appears (its position) inside an array or string.
 <=======
+
+=======>
+a3.
+lastIndexOf()
+    lastIndexOf() in JavaScript finds the last occurrence of a character or substring in a string, and returns its index.
+    If not found, it returns -1.
+
+    Why ?
+    Use it when you want to find where something appears last in a string.
+<=======
