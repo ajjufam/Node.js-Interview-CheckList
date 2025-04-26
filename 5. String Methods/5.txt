@@ -151,6 +151,10 @@ replace()
 =======>
 b8.
 replaceAll()
+    replaceAll() in JavaScript replaces all occurrences of a substring or pattern in a string with a new substring.
+
+    Why?
+    Use it when you want to replace every occurrence of a pattern in the string, without using regular expressions.
 <=======
 
 =======>
