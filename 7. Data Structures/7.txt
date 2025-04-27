@@ -43,6 +43,14 @@ Set
 =======>
 a4.
 Map
+    A Map is a collection of key-value pairs where the keys can be of any data type (including objects or functions), unlike objects, where keys are always strings or symbols.
+    A Map remembers the insertion order of the keys.
+    It allows any data type as a key (even objects, arrays, and functions).
+
+    Why?
+    * Map offers flexible keys (can be any type).
+    * It provides efficient lookups and insertion times (similar to Sets).
+    * It is good for storing key-value pairs and maintaining insertion order.
 <=======
 
 =======>
