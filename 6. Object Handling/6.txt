@@ -121,6 +121,16 @@ Rest Operator
 =======>
 a8.
 Object.keys()
+    Object.keys() is a method that returns an array of the object’s own property names (keys).
+    👉 Only keys, not values.
+    👉 Only enumerable (visible) properties.
+
+    Why?
+    * To get all keys of an object quickly.
+    * Useful for looping, validations, or counting properties.
+
+    How?
+    Object.keys(object);
 <=======
 
 =======>
