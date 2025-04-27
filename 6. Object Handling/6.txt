@@ -1,0 +1,114 @@
+=======>
+a1.
+Object Creation (Literal)
+    Object creation (literal) means creating an object directly using {} without using any class, constructor, or function.
+
+    Why ?
+    * It's quick and easy to create small objects.
+    * Best for simple data structures like settings, configurations, simple records, etc.
+    * Readable and clean syntax.
+
+    How ?
+    Use curly braces {} and define key: value pairs inside.
+
+    Syntax 
+    let obj = {
+      key1: value1,
+      key2: value2
+    };
+<=======
+
+=======>
+a2.
+Object Creation (Constructor)
+<=======
+
+=======>
+a3.
+Property Access
+<=======
+
+=======>
+a4.
+Property Deletion
+<=======
+
+=======>
+a5.
+Destructuring
+<=======
+
+=======>
+a6.
+Spread Operator
+<=======
+
+=======>
+a7.
+Rest Operator
+<=======
+
+=======>
+a8.
+Object.keys()
+<=======
+
+=======>
+a9.
+Object.values()
+<=======
+
+=======>
+b1.
+Object.entries()
+<=======
+
+=======>
+b2.
+Optional Chaining (?.)
+<=======
+
+=======>
+b3.
+Nullish Coalescing (??)
+<=======
+
+=======>
+b4.
+Object.freeze()
+<=======
+
+=======>
+b5.
+Object.seal()
+<=======
+
+=======>
+b6.
+Shallow Copy
+<=======
+
+=======>
+b7.
+Deep Copy
+<=======
+
+=======>
+b8.
+JSON.parse()
+<=======
+
+=======>
+b9.
+JSON.stringify()
+<=======
+
+=======>
+c1.
+Prototypes
+<=======
+
+=======>
+c2.
+Inheritance
+<=======
