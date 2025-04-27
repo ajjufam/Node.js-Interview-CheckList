@@ -181,6 +181,18 @@ Optional Chaining (?.)
 =======>
 b3.
 Nullish Coalescing (??)
+    The Nullish Coalescing Operator (??) is used to provide a default value when the left-hand side is null or undefined.
+    👉 It only checks for null or undefined, not other falsy values like 0, false, or "".
+
+    Why?
+    * To safely assign fallback values when something might be null or undefined.
+    * Better and more precise than using || (logical OR), because || treats many things as falsy.
+
+    How?
+    const result = value ?? defaultValue;
+
+    If value is null or undefined, it will return defaultValue.
+    Otherwise, it returns value.
 <=======
 
 =======>
