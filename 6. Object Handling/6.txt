@@ -316,4 +316,17 @@ Prototypes
 =======>
 c2.
 Inheritance
+    Inheritance means one object can use properties and methods of another object — without rewriting them.
+    👉 In JavaScript, inheritance happens through prototypes.
+    👉 An object can inherit from another object automatically via the prototype chain.
+
+    Why?
+    * To reuse code (no need to duplicate).
+    * To share behavior across multiple objects.
+    * To organize code cleanly (Parent → Child relationship).
+
+    How?
+    1. Using Object.create()
+    2. Using Constructor Functions + Prototypes
+    3. Using class syntax (ES6 way)
 <=======
