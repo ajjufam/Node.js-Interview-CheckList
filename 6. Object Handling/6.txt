@@ -136,6 +136,16 @@ Object.keys()
 =======>
 a9.
 Object.values()
+    Object.values() is a method that returns an array of an object’s own property values.
+    👉 Only values, not keys.
+    👉 Only enumerable (visible) properties.
+
+    Why?
+    * To get all the values of an object quickly.
+    * Useful for processing, searching, or filtering data.
+
+    How?
+    Object.values(object);
 <=======
 
 =======>

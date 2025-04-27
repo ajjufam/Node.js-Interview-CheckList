@@ -30,3 +30,7 @@ Object.keys(person).forEach((key) => {
 // ✔️ Count properties:
 const propertyCount = Object.keys(person).length;
 console.log(propertyCount); // Output: 3
+
+// ✔️ Find a key:
+const hasname = Object.keys(person).includes("name");
+console.log(hasname); // Output: true
