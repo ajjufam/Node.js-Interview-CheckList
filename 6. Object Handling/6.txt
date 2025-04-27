@@ -104,6 +104,18 @@ Spread Operator
 =======>
 a7.
 Rest Operator
+    The rest operator (...) is used to collect the remaining properties of an object into a new object after some properties are pulled out.
+    👉 It's like:
+    * "Take the rest of the properties and put them together!"
+
+    Why?
+    * To extract only what you need.
+    * To separate or filter properties easily.
+    * To clean up objects without mutating the original.
+
+    How?
+    It’s used inside destructuring like this:
+    const { key1, key2, ...rest } = object;
 <=======
 
 =======>
