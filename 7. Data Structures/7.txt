@@ -97,7 +97,28 @@ Stack
 =======>
 a8.
 Queue
+    A Queue is a linear data structure that works on the FIFO principle:
+    * FIFO = First In, First Out
+    * (Meaning: the first item added is the first one to be removed.)
+
+    Why?
+    Order matters — first thing comes out first.
+    Useful for:
+    * Task scheduling (printer queue, message queue)
+    * Managing async operations (like API request queue)
+    * Breadth-first search (in trees, graphs)
 <=======
+
+Data Structure | Add             | Remove               | Principle
+Stack          | push() (at end) | pop() (from end)     | LIFO (Last In, First Out)
+Queue          | push() (at end) | shift() (from start) | FIFO (First In, First Out)
+
+🔥 Simple View:
+Stack =
+Push ➡️ Push ➡️ Push ➡️ Pop (from end)
+
+Queue =
+Push ➡️ Push ➡️ Push ➡️ Shift (from start)
 
 =======>
 a9.

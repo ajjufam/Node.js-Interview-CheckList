@@ -51,3 +51,7 @@ console.log(reverseString("hello")); // "olleh"
 // Array is multi-purpose.
 // Stack is a special behavior using Array (only LIFO: push/pop).
 // When you say "Stack", you mean "I’m using Array but only push/pop like a stack".
+
+// ✅
+// Stack = push & pop
+// Queue = push & shift
