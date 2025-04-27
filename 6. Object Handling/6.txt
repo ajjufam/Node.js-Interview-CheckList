@@ -282,6 +282,18 @@ JSON.parse()
 =======>
 b9.
 JSON.stringify()
+    JSON.stringify() is a method that converts a JavaScript object into a JSON string.
+    👉 It turns an object, array, etc., into a text format that can be easily stored or sent 
+    (like in APIs, localStorage, files).
+
+    Why?
+    * To send data over a network (API calls, etc.)
+    * To store objects in places that accept only strings (like localStorage).
+    * To log objects nicely for debugging.
+
+    How?
+    const jsonString = JSON.stringify(object);
+        You pass a JS object, and it gives back a JSON string.
 <=======
 
 =======>
