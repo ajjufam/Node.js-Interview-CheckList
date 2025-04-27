@@ -247,6 +247,20 @@ Shallow Copy
 =======>
 b7.
 Deep Copy
+    A deep copy means copying everything, including nested objects.
+    👉 It creates a completely independent clone — no shared references.
+    👉 Changing the copy won't affect the original at any depth.
+
+    Why?
+    * When your object has nested objects/arrays and you want a full independent copy.
+    * To avoid accidental changes in the original object when modifying the copy.
+
+    How?
+    ✅ Using structuredClone() (modern and best way):
+    const deepCopy = structuredClone(original);
+
+    ✅ Using JSON.parse(JSON.stringify(object)) (older method):
+    const deepCopy = JSON.parse(JSON.stringify(original));
 <=======
 
 =======>
