@@ -198,6 +198,16 @@ Nullish Coalescing (??)
 =======>
 b4.
 Object.freeze()
+    Object.freeze() is a method that freezes an object.
+    👉 It means: You cannot add, remove, or change properties of the object anymore.
+    👉 The object becomes immutable (unchangeable).
+
+    Why?
+    * To protect objects from being modified accidentally.
+    * Useful for creating constant configurations, settings, or secure data structures.
+
+    How?
+    Object.freeze(object);
 <=======
 
 =======>
