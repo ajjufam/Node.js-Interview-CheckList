@@ -123,6 +123,15 @@ Push ➡️ Push ➡️ Push ➡️ Shift (from start)
 =======>
 a9.
 Linked List
+    A Linked List is a linear data structure where each element points to the next element.
+    Each item = a Node (with two parts: value + next).
+
+    Why?
+    Easy to insert or delete items (no shifting like arrays).
+    Useful when:
+    * You don't know the final size in advance.
+    * You need dynamic memory usage.
+    * You want fast insertions/deletions.
 <=======
 
 =======>
