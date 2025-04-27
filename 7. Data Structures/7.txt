@@ -1,0 +1,62 @@
+=======>
+a1.
+Array
+    * Array = a special data structure that holds a list of values in a single variable.
+    * Each value inside the array is called an element.
+    * Each element has an index (starts from 0).
+
+    let fruits = ["apple", "banana", "cherry"];
+    // Indexes:    0        1         2
+
+    Why?
+    * To store multiple related values together.
+    * To organize data neatly.
+    * To iterate easily over items (using loops).
+    * To perform batch operations like sorting, filtering, mapping, etc.
+    * Saves memory and makes code cleaner.
+<=======
+
+=======>
+a2.
+Object
+<=======
+
+=======>
+a3.
+Set
+<=======
+
+=======>
+a4.
+Map
+<=======
+
+=======>
+a5.
+WeakSet
+<=======
+
+=======>
+a6.
+WeakMap
+<=======
+
+=======>
+a7.
+Stack
+<=======
+
+=======>
+a8.
+Queue
+<=======
+
+=======>
+a9.
+Linked List
+<=======
+
+=======>
+b1.
+Hash Table
+<=======
