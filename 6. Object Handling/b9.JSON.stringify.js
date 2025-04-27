@@ -36,3 +36,8 @@ console.log(formatted);
 const customJson = JSON.stringify(person, ["name"]);
 console.log(customJson);
 // Output: '{"name":"Alice"}'
+
+//Differences
+// Method              | Purpose
+// JSON.stringify(obj) | JS object ➡️ JSON string
+// JSON.parse(string)  | JSON string ➡️ JS object

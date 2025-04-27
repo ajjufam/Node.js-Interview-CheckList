@@ -36,3 +36,8 @@ const user = JSON.parse(jsonString1, (key, value) => {
 });
 
 console.log(user); // { birthYear: 25 }
+
+//Differences
+// Method              | Purpose
+// JSON.stringify(obj) | JS object ➡️ JSON string
+// JSON.parse(string)  | JSON string ➡️ JS object
