@@ -87,6 +87,18 @@ Destructuring
 =======>
 a6.
 Spread Operator
+    The spread operator (...) is used to copy or expand properties of one object into another object.
+    Basically:
+    👉 Take everything from an object and spread it somewhere else.
+
+    Why?
+    * To copy objects easily.
+    * To merge objects together.
+    * To add or update properties while copying.
+
+    How?
+    Syntax 
+    const newObject = { ...oldObject };
 <=======
 
 =======>
