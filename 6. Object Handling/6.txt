@@ -151,6 +151,15 @@ Object.values()
 =======>
 b1.
 Object.entries()
+    Object.entries() is a method that returns an array of arrays, where each inner array is a key-value pair from the object.
+    👉 You get both keys and values together.
+
+    Why?
+    * To work with both key and value at the same time.
+    * Very useful for looping, transforming, or mapping objects.
+
+    How?
+    Object.entries(object);
 <=======
 
 =======>
