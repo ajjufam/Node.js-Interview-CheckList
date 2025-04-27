@@ -71,6 +71,17 @@ Property Deletion
 =======>
 a5.
 Destructuring
+    Destructuring means pulling out properties from an object and storing them directly into variables.
+    (Instead of accessing each property manually.)
+
+    Why?
+    * Makes code shorter and cleaner.
+    * Easier to grab multiple values at once.
+    * Organizes your code better.
+
+    How?
+    Syntax 
+    const { key1, key2 } = object;
 <=======
 
 =======>
