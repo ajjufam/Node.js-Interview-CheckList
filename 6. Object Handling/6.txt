@@ -21,6 +21,18 @@ Object Creation (Literal)
 =======>
 a2.
 Object Creation (Constructor)
+    Object creation (constructor) means creating objects using a constructor function (special function meant to build objects).
+    It’s a blueprint to create multiple objects with the same structure easily.
+
+    Why?
+    * Reuse code to create many similar objects.
+    * Dynamic: Each object can have different values.
+    * Used when you need a lot of similar objects (like users, products, etc.)
+
+    How ?
+    1. Define a function (constructor) with capital first letter (by convention).
+    2. Inside, use this.key = value.
+    3. Use new keyword to create objects.
 <=======
 
 =======>
