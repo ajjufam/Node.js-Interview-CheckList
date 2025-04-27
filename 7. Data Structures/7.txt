@@ -84,6 +84,14 @@ WeakMap
 =======>
 a7.
 Stack
+    A Stack is a linear data structure that works on the LIFO principle:
+    * LIFO = Last In, First Out
+    * (Meaning: the last item added is the first one to be removed.)
+
+    Why?
+    * To reverse something (like a string).
+    * To track history (like browser back button, undo actions).
+    * To manage function calls (like JavaScript call stack).
 <=======
 
 =======>
