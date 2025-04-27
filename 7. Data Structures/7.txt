@@ -19,6 +19,12 @@ Array
 =======>
 a2.
 Object
+    An Object in JavaScript is a collection of key-value pairs.
+    Key: A string (can also be a symbol).
+    Value: Can be any data type (string, number, array, another object, etc.).
+
+    Why?
+    Objects help you store and organize related data in a single structure.
 <=======
 
 =======>
