@@ -56,6 +56,15 @@ Map
 =======>
 a5.
 WeakSet
+    A WeakSet is a special type of Set where:
+    * It can only store objects (not primitive values like strings, numbers, etc.).
+    * The references to objects in a WeakSet are weak. This means if there are no other references to the object, it can be garbage collected.
+    * It does not have a size property (because it doesn't keep track of the number of objects, for memory optimization).
+    * It has fewer methods compared to the regular Set.
+
+    Why?
+    * Memory efficiency: Useful for scenarios where you want to store objects but don’t want them to prevent garbage collection.
+    * WeakSets are primarily used in cases where you want to track objects without preventing them from being cleaned up by the garbage collector.
 <=======
 
 =======>
