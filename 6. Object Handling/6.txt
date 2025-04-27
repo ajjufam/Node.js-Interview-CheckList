@@ -266,6 +266,17 @@ Deep Copy
 =======>
 b8.
 JSON.parse()
+    JSON.parse() is a method that converts a JSON string into a JavaScript object.
+    👉 JSON (JavaScript Object Notation) is a string format to represent objects/data.
+    👉 JSON.parse() reads that string and builds the real object back.
+
+    Why?
+    * To convert data received (from APIs, files, storage) into usable JavaScript objects.
+    * To work with JSON data easily in your code.
+
+    How?
+    const obj = JSON.parse(jsonString);
+        You give it a valid JSON string, and it gives you a real object.
 <=======
 
 =======>
