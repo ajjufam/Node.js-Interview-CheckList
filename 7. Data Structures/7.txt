@@ -29,7 +29,15 @@ Object
 
 =======>
 a3.
-Set
+Set 
+    A Set is a collection of unique values. Unlike arrays, sets do not allow duplicates.
+    * A Set can store any type of value (primitive values, objects, etc.).
+    * It is part of the ES6 (ECMAScript 2015) standard.
+
+    Why?
+    * To store unique values without duplicates.
+    * Sets provide efficient lookup and quick insertion.
+    * Useful when you want to eliminate duplicate values from a list.
 <=======
 
 =======>
