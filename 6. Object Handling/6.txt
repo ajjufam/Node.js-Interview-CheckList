@@ -213,6 +213,16 @@ Object.freeze()
 =======>
 b5.
 Object.seal()
+    Object.seal() is a method that seals an object.
+    👉 You cannot add or delete properties.
+    👉 But you can still modify (update) the existing properties.
+
+    Why?
+    * To prevent structure changes (no adding/removing properties) while allowing updates to existing data.
+    * Useful when you want a fixed shape object but editable values.
+
+    How?
+    Object.seal(object);
 <=======
 
 =======>
