@@ -1,3 +1,35 @@
+| Method         | Mutable | Immutable |
+|----------------|---------|-----------|
+| `length`       | No      | Yes        |
+| `indexOf()`    | No      | Yes        |
+| `lastIndexOf()`| No      | Yes        |
+| `includes()`   | No      | Yes        |
+| `startsWith()` | No      | Yes        |
+| `endsWith()`   | No      | Yes        |
+| `charAt()`     | No      | Yes        |
+| `charCodeAt()` | No      | Yes        |
+| `toUpperCase()`| No      | Yes        |
+| `toLowerCase()`| No      | Yes        |
+| `slice()`      | No      | Yes        |
+| `substring()`  | No      | Yes        |
+| `substr()`     | No      | Yes        |
+| `split()`      | No      | Yes        |
+| `join()`       | ❌      | ❌ (This is an **array** method, not string) |
+| `replace()`    | No      | Yes        |
+| `replaceAll()` | No      | Yes        |
+| `trim()`       | No      | Yes        |
+| `trimStart()`  | No      | Yes        |
+| `trimEnd()`    | No      | Yes        |
+| `concat()`     | No      | Yes        |
+| `padStart()`   | No      | Yes        |
+| `padEnd()`     | No      | Yes        |
+| `repeat()`     | No      | Yes        |
+
+NOTE : In Strings all methods are Immutable
+
+🔁 Mutable Methods (change the original string):
+✅ Immutable Methods (do not change the original string):
+
 =======>
 a1.
 length
