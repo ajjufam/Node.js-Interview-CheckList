@@ -1,3 +1,33 @@
+| Method         | Mutable | Immutable |
+|----------------|---------|-----------|
+| `forEach()`    |         | Yes        |
+| `map()`        |         | Yes        |
+| `filter()`     |         | Yes        |
+| `reduce()`     |         | Yes        |
+| `some()`       |         | Yes        |
+| `every()`      |         | Yes        |
+| `find()`       |         | Yes        |
+| `findIndex()`  |         | Yes        |
+| `includes()`   |         | Yes        |
+| `indexOf()`    |         | Yes        |
+| `lastIndexOf()`|         | Yes        |
+| `push()`       | Yes     |            |
+| `pop()`        | Yes     |            |
+| `shift()`      | Yes     |            |
+| `unshift()`    | Yes     |            |
+| `concat()`     |         | Yes        |
+| `slice()`      |         | Yes        |
+| `splice()`     | Yes     |            |
+| `flat()`       |         | Yes        |
+| `flatMap()`    |         | Yes        |
+| `reverse()`    | Yes     |            |
+| `sort()`       | Yes     |            |
+| `fill()`       | Yes     |            |
+| `from()`       |         | Yes        |
+
+🔁 Mutable Methods (change the original array):
+✅ Immutable Methods (do not change the original array):
+
 =======>
 a1.
 forEach()
