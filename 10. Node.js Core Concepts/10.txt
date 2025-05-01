@@ -67,6 +67,13 @@ NPM
 =======>
 a6.
 Environment Variables
+    Environment Variables are key-value pairs used to store config values outside your code.
+    🛡️ Useful for keeping sensitive info like passwords, API keys, and URLs secure and separate from code.
+
+    Why?
+    🔒 Security – avoid hardcoding secrets
+    🔁 Portability – config changes without changing code
+    📦 Environment-specific setup – dev, staging, production
 <=======
 
 =======>
