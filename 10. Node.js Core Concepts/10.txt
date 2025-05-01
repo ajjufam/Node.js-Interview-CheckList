@@ -38,6 +38,17 @@ ES Modules
 =======>
 a4.
 REPL
+    🔁 Read
+    ⚙️ Eval
+    📝 Print
+    ⏹️ Loop
+    It’s an interactive environment where you can run JavaScript code line-by-line — like a live playground!
+
+    Why?
+    * Test small pieces of code quickly 🧪
+    * Debug expressions and functions 🐞
+    * Explore Node.js APIs easily 🚀
+    * No need to create a file or run node file.js 💡
 <=======
 
 =======>
