@@ -25,6 +25,14 @@ CommonJS Modules
 =======>
 a3.
 ES Modules
+    ES Modules (ESM) is the official JavaScript module system introduced in ES6 (2015).
+    It's used in both browser and Node.js (modern versions).
+
+    Why?
+    * Native JavaScript module system.
+    * Supports asynchronous loading.
+    * Works in browsers and Node.js.
+    * Supports tree-shaking (removing unused code).
 <=======
 
 =======>
