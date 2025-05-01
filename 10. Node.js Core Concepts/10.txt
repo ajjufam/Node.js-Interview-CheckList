@@ -13,6 +13,13 @@ Global Objects
 =======>
 a2.
 CommonJS Modules
+    CommonJS (CJS) is the module system used in Node.js.
+    It allows you to import and export code between files.
+
+    Why?
+    * Helps split code into reusable parts.
+    * Keeps code organized and maintainable.
+    * Built-in support in Node.js (no setup needed).
 <=======
 
 =======>
