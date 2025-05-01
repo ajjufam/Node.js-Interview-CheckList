@@ -1,0 +1,111 @@
+=======>
+a1.
+Global Objects
+    Global Objects in Node.js are objects available in every module. You don't need to require them — 
+    they are automatically available.
+
+    Why?
+    * Help you access useful values or functions anywhere in your code.
+    * Reduce the need for importing common utilities.
+    * Offer system-level functionalities like current directory, timers, buffer handling, etc.
+<=======
+
+=======>
+a2.
+CommonJS Modules
+<=======
+
+=======>
+a3.
+ES Modules
+<=======
+
+=======>
+a4.
+REPL
+<=======
+
+=======>
+a5.
+NPM
+<=======
+
+=======>
+a6.
+Environment Variables
+<=======
+
+=======>
+a7.
+fs module
+<=======
+
+=======>
+a8.
+path module
+<=======
+
+=======>
+a9.
+events module
+<=======
+
+=======>
+b1.
+streams
+<=======
+
+=======>
+b2.
+buffers
+<=======
+
+=======>
+b3.
+http module
+<=======
+
+=======>
+b4.
+os module
+<=======
+
+=======>
+b5.
+child_process
+<=======
+
+=======>
+b6.
+cluster
+<=======
+
+=======>
+b7.
+process.exit()
+<=======
+
+=======>
+b8.
+process.argv
+<=======
+
+=======>
+b9.
+process.memoryUsage()
+<=======
+
+=======>
+c1.
+Manual Middleware
+<=======
+
+=======>
+c2.
+Error Handling
+<=======
+
+=======>
+c3.
+REST APIs
+<=======
