@@ -54,6 +54,14 @@ REPL
 =======>
 a5.
 NPM
+    NPM stands for Node Package Manager.
+    It’s the default package manager for Node.js.
+
+    Why?
+    * Install open-source packages (like express, mongoose)
+    * Manage project dependencies
+    * Run project scripts
+    * Share your own packages
 <=======
 
 =======>
