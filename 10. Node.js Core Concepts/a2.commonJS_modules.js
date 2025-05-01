@@ -37,3 +37,8 @@ console.log(math.sub(5, 1)); // 4
 // | `exports`         | Shortcut to `module.exports`               |
 // | `__filename`      | Absolute path to the current file          |
 // | `__dirname`       | Absolute path to the current directory     |
+
+// 📦 Built-in Modules with CommonJS
+// You can also import Node's built-in modules:
+const fs = require("fs");
+const path = require("path");
