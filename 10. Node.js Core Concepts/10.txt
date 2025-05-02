@@ -171,6 +171,12 @@ buffers
 =======>
 b3.
 http module
+    The http module allows you to:
+    * Create an HTTP server
+    * Handle incoming requests
+    * Send back responses
+    
+    You don’t need to install it — it’s built into Node.js.
 <=======
 
 =======>
