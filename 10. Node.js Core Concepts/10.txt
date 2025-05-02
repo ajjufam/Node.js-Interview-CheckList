@@ -182,6 +182,18 @@ http module
 =======>
 b4.
 os module
+    The os module in Node.js provides information about the operating system — like CPU, memory, platform, etc.
+    * It’s built-in. No need to install it.
+
+    Why?
+    * To get OS type (Windows, Linux, etc.)
+    * To check free and total memory
+    * To know CPU details
+    * To get system uptime
+    * To find current user info
+    * To get home directory path
+    * To check network details (like IP)
+    * To write OS-based logic in apps
 <=======
 
 =======>
