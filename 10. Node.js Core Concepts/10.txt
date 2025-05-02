@@ -109,6 +109,22 @@ path module
 =======>
 a9.
 events module
+    * The events module allows handling custom events.
+    * You can create an event, listen for it, and trigger it.
+    * 📦 It's a built-in module — no installation needed.
+
+    Why?
+    * Helps build event-driven systems (core idea behind Node.js)
+    * Great for decoupling code — e.g., notify one part of your app when something happens in another
+
+    How?
+    using events module
+    const EventEmitter = require('events');
+
+    🛠️ How It Works
+    * Create an event emitter
+    * Listen for an event
+    * Emit (trigger) the event
 <=======
 
 =======>
