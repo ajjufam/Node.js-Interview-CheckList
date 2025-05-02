@@ -130,6 +130,30 @@ events module
 =======>
 b1.
 streams
+    Streams are a way to read or write data piece by piece, instead of loading the entire data at once.
+    👉 Useful for handling large files, video/audio, network data, etc.
+
+    Why?
+    | Without Streams         | With Streams              |
+    |-------------------------|---------------------------|
+    | Loads all data at once  | Handles data in chunks    |
+    | Can crash on big files  | Memory efficient          |
+    | Slower performance      | Fast and scalable         |
+
+    Types?
+    | Stream Type       | Purpose                 |
+    |-------------------|-------------------------|
+    | `Readable`        | Read data (e.g. from file) |
+    | `Writable`        | Write data (e.g. to file)  |
+    | `Duplex`          | Both read and write       |
+    | `Transform`       | Modify data while streaming (e.g. compress)
+
+    Common Modules That Use Streams
+    * fs (file system)
+    * http
+    * zlib (compression)
+    * net
+    * crypto
 <=======
 
 =======>
