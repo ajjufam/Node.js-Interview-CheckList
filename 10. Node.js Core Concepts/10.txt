@@ -79,6 +79,15 @@ Environment Variables
 =======>
 a7.
 fs module
+    The fs module in Node.js lets you work with the file system — reading, writing, updating, and deleting 
+    files or folders.
+
+    Why?
+    To Read, Write, Update, and Delete operations in file system
+
+    How?
+    Using fs module
+    const fs = require('fs');
 <=======
 
 =======>
