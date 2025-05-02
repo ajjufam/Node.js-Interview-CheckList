@@ -93,6 +93,17 @@ fs module
 =======>
 a8.
 path module
+    The path module provides utilities for working with file and directory paths in Node.js.
+    📦 It's a built-in module — no need to install it.
+
+    Why?
+    * Makes file paths OS-independent (/ on mac/linux, \\ on Windows)
+    * Helps join, resolve, normalize, extract paths
+    * Prevents hardcoding file paths manually
+
+    How?
+    Using path module
+    const path = require('path');
 <=======
 
 =======>
