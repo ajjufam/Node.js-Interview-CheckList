@@ -159,6 +159,13 @@ streams
 =======>
 b2.
 buffers
+    A Buffer is a way to handle binary data (like images, videos, or raw files) directly in memory.
+    In Node.js, buffers are used when you’re dealing with streams, files, TCP sockets, or raw binary data.
+
+    Why?
+    * JavaScript normally deals with strings (text), but not raw binary.
+    * Buffers help you store and manipulate binary data.
+    * Very useful when working with fs, net, or stream modules.
 <=======
 
 =======>
