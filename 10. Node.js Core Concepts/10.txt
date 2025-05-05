@@ -199,6 +199,14 @@ os module
 =======>
 b5.
 child_process
+    The child_process module allows you to run system commands or scripts (like running a Python file, shell command, etc.) from a Node.js app.
+    You can interact with external processes just like you would from a terminal.
+
+    Why?
+    * Run shell commands (ls, mkdir, etc.)
+    * Execute other programs (e.g., Python, Java)
+    * Create separate Node.js processes (for heavy work)
+    * Automate system tasks
 <=======
 
 =======>
