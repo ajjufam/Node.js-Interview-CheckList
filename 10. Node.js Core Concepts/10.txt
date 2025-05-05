@@ -212,6 +212,19 @@ child_process
 =======>
 b6.
 cluster
+    The cluster module allows you to create child processes (workers) that all share the same server port.
+    Node.js runs in a single thread. With cluster, you can use multiple CPU cores to improve performance — especially for HTTP servers.
+
+    Why?
+    * Utilize multi-core CPUs
+    * Handle more requests concurrently
+    * Improve server performance
+    * Build scalable backend services
+
+    How?
+    You split the app into:
+    * Master process – creates and manages workers
+    * Worker processes – handle actual work (like HTTP requests)
 <=======
 
 =======>
