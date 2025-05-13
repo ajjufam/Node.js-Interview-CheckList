@@ -230,6 +230,19 @@ cluster
 =======>
 b7.
 process.exit()
+    It’s a method in Node.js that immediately stops the Node.js process.
+
+    Why?
+    * Stop execution manually
+    * Exit after completing a task
+    * Exit with an error code on failure
+    * End the program when a condition fails
+
+    How? 
+    process.exit([code]);
+        code is an optional number that tells the OS why the process exited.
+        0 → success (default)
+        any other number → error/failure
 <=======
 
 =======>

@@ -12,7 +12,7 @@
 //     const copy = Object.assign({}, original);
 
 //     ✅ Using spread operator (...):
-//     const copy = { ...original };
+//     const copy = { ...original };`
 
 const person = {
   name: "Alice",
