@@ -248,6 +248,15 @@ process.exit()
 =======>
 b8.
 process.argv
+    process.argv is an array in Node.js that contains the command-line arguments passed when starting the script.
+
+    Why?
+    * To read user input from the command line
+    * To build custom CLI tools
+    * To change script behavior dynamically
+
+    How?
+    process.argv
 <=======
 
 =======>
