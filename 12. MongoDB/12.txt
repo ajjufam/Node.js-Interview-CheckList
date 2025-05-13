@@ -1,0 +1,59 @@
+=======>
+a1.
+Create Document
+<=======
+
+=======>
+a2.
+Read Document
+<=======
+
+=======>
+a3.
+Update Document
+<=======
+
+=======>
+a4.
+Delete Document
+<=======
+
+=======>
+a5.
+Schema Design
+<=======
+
+=======>
+a6.
+ObjectId
+<=======
+
+=======>
+a7.
+Indexing
+<=======
+
+=======>
+a8.
+Aggregation
+<=======
+
+=======>
+a9.
+Mongoose ODM
+<=======
+
+=======>
+b1.
+Mongoose Validation
+<=======
+
+=======>
+b2.
+Mongoose Connection
+<=======
+
+=======>
+b3.
+Population (populate)
+<=======

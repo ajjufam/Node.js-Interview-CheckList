@@ -1,0 +1,74 @@
+=======>
+a1.
+Setup Express App
+<=======
+
+=======>
+a2.
+Routing (GET, POST, PUT, DELETE)
+<=======
+
+=======>
+a3.
+Middleware
+<=======
+
+=======>
+a4.
+Router
+<=======
+
+=======>
+a5.
+req & res objects
+<=======
+
+=======>
+a6.
+Sending JSON/HTML
+<=======
+
+=======>
+a7.
+Error Middleware
+<=======
+
+=======>
+a8.
+Route Params & Query
+<=======
+
+=======>
+a9.
+Static Files
+<=======
+
+=======>
+b1.
+CORS
+<=======
+
+=======>
+b2.
+HTTP Status Codes
+<=======
+
+=======>
+b3.
+Body Parsing
+<=======
+
+=======>
+b4.
+File Upload (e.g., multer)
+<=======
+
+=======>
+b5.
+JWT Authentication
+<=======
+
+=======>
+b6.
+Input Validation
+<=======
