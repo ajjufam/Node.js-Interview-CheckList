@@ -262,6 +262,16 @@ process.argv
 =======>
 b9.
 process.memoryUsage()
+    process.memoryUsage() returns an object that shows how much memory your Node.js process is using.
+    It's useful for:
+    * Monitoring performance
+    * Detecting memory leaks
+    * Debugging heavy operations
+
+    Why?
+    * Track memory used by your application
+    * Prevent memory overflows in large apps
+    * Optimize your code
 <=======
 
 =======>
