@@ -59,7 +59,7 @@ Update Document
         * Admin changes user role or status
         * A product’s price is updated
         * A booking status is changed from pending → confirmed
-        
+
     You don’t want to delete or recreate the record — just update it.
     🔧 Methods to update (via Mongoose):
         * findByIdAndUpdate
@@ -72,6 +72,21 @@ Update Document
 =======>
 a4.
 Delete Document
+    Deleting a document means permanently removing a record from your MongoDB collection.
+    Mongoose gives you several ways to delete:
+        * deleteOne()
+        * deleteMany()
+        * findByIdAndDelete()
+        * findOneAndDelete()
+    There’s also the soft delete pattern (where you just mark deleted: true).
+
+    Why ?
+    In real-world apps, we delete documents when:
+        * A user deletes their account
+        * Admin removes a product or post
+        * An expired session/token is removed
+        * An order is canceled and should not appear anymore
+    Note: Sometimes, we soft delete instead of hard delete — more on that below.
 <=======
 
 =======>
