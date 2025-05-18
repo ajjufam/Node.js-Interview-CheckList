@@ -1,16 +1,72 @@
 =======>
+DB Connection
+    const mongoose = require("mongoose");
+    const mongouri = process.env.MONGODB_URI;
+
+    const connectDB = () => {
+    mongoose
+        .connect(mongouri)
+        .then(() => console.log(`Mongoose connected successfully`))
+        .catch((err) => console.log(`Error while connecting to mongo`, err));
+    };
+
+    module.exports = connectDB;
+
 a1.
 Create Document
+    In MongoDB, creating a document means inserting a new JSON-like object into a collection in a database.
+    {
+        "_id": ObjectId("..."),
+        "name": "John",
+        "email": "john@example.com"
+    }
+
+    Why ?
+    You create documents to:
+    * Store application data (users, orders, products, etc.)
+    * Maintain schema-flexible records
+    * Add entries to your collection
+    * Build APIs that rely on persistent storage
 <=======
 
 =======>
 a2.
 Read Document
+    Reading means querying or retrieving documents from a MongoDB collection.
+    This can be:
+    * One document → findOne(), findById()
+    * Many documents → find(), with filters, projections, sorting, etc.
+
+    why ?
+    To:
+    * Show user data in dashboards
+    * Authenticate users
+    * List orders/products
+    * Check status, verify inputs
+    * Populate dropdowns or relations
+    In short: any time we fetch data from DB, we use read queries.
 <=======
 
 =======>
 a3.
 Update Document
+    Updating a document means modifying one or more fields in an existing MongoDB record 
+    (document) based on a condition — typically by _id.
+
+    Why ?
+    You use it when:
+        * A user updates their profile (name, age, etc.)
+        * Admin changes user role or status
+        * A product’s price is updated
+        * A booking status is changed from pending → confirmed
+        
+    You don’t want to delete or recreate the record — just update it.
+    🔧 Methods to update (via Mongoose):
+        * findByIdAndUpdate
+        * updateOne
+        * updateMany
+        * findOneAndUpdate
+        * Document.save()
 <=======
 
 =======>
