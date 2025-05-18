@@ -126,6 +126,16 @@ ObjectId
 =======>
 a7.
 Indexing
+    Indexing in MongoDB is a way to improve the speed of read/query operations by creating special data structures 
+    (indexes) that help MongoDB locate data faster — like a book’s index page.
+    * By default, every MongoDB collection creates an index on the _id field.
+
+    Why ?
+    ✅ Makes queries much faster
+    ✅ Reduces CPU/IO load
+    ✅ Essential for large datasets
+    ✅ Needed for sorting, filtering, pagination
+    ✅ Allows constraints (e.g. unique email)
 <=======
 
 =======>
