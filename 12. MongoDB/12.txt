@@ -92,6 +92,16 @@ Delete Document
 =======>
 a5.
 Schema Design
+    Schema Design is the process of defining the structure of your documents in a MongoDB collection using fields, 
+    types, relationships, constraints, and indexes.
+    In Mongoose (Node.js), you define schemas using new mongoose.Schema(), then create models based on that schema.
+
+    Why ?
+    * Ensures data consistency (type-safe: name = string, age = number)
+    * Controls validation (required, unique, enums, etc.)
+    * Improves query performance (via indexing and structure)
+    * Supports complex/nested relationships
+    * Makes your codebase maintainable and scalable
 <=======
 
 =======>
