@@ -170,6 +170,18 @@ Route Params & Query
 =======>
 a9.
 Static Files
+    Static files are files that don’t change and are served as-is to the browser.
+    These include:
+    * HTML files
+    * CSS stylesheets
+    * JavaScript files
+    * Images (PNG, JPG, SVG)
+    * Fonts, PDFs, etc.
+
+    Why ?
+    * To show web pages and assets to users
+    * Required for frontend of most web apps
+    * Speeds up performance since they don't require server-side rendering
 <=======
 
 =======>
