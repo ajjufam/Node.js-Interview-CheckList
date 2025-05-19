@@ -187,6 +187,16 @@ Static Files
 =======>
 b1.
 CORS
+    CORS stands for Cross-Origin Resource Sharing.
+    It’s a browser security feature that controls which domains can access your backend APIs.
+
+    Why ?
+    By default, browsers block frontend JS code from calling a different domain (cross-origin).
+    You need CORS to allow or restrict access to your server’s APIs from other domains.
+    🧠 Example:
+    * Frontend: http://localhost:3000
+    * Backend API: http://localhost:5000
+    Without enabling CORS on your backend, this request will fail in the browser.
 <=======
 
 =======>
