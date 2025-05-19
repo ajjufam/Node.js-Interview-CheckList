@@ -299,11 +299,39 @@ Primary and secondary Replica sets
 =======>
 b7.
 Horizontal vs Vertical scalling
+    | Feature            | Vertical Scaling              | Horizontal Scaling                   |
+    | ------------------ | ----------------------------- | ------------------------------------ |
+    | Also called        | Scale Up                      | Scale Out                            |
+    | Method             | Add resources to 1 server     | Add more servers/nodes               |
+    | Complexity         | Low                           | High                                 |
+    | Cost efficiency    | Expensive for high specs      | Cost-effective for commodity servers |
+    | Failure resistance | Low (single point of failure) | High (distributed)                   |
+    | Examples           | Add more RAM/CPU to a DB      | Add more app servers or DB shards    |
 <=======
 
 =======>
 b8.
 Schema Migrations
+    Schema migration is the process of modifying your existing database schema 
+    (structure of your collections and documents) over time—especially when your application requirements change.
+    MongoDB is schema-less (or schema-flexible), so technically you don’t need migrations like in SQL. 
+    But in real-world production apps, we often define schemas using Mongoose, and as business logic evolves, we must:
+
+    * Add new fields
+    * Remove old ones
+    * Rename fields
+    * Change data types
+    * Backfill data (set default values for existing documents)
+    This is called a schema migration.
+
+    Why ?
+    * Your application logic changes (e.g. add isActive to users)
+    * You normalize/denormalize collections
+    * You rename a field (e.g. fullName → name)
+    * You improve performance (indexing, types, etc.)
+    * Ensure consistency across old and new data
+    * You add validations or required fields
+    Even though MongoDB is flexible, without structured migrations your data can become messy and inconsistent.
 <=======
 
 =======>
