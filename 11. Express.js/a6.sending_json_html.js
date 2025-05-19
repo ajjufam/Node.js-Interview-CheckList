@@ -32,3 +32,12 @@ app.get("/welcome", (req, res) => {
     </html>
   `);
 });
+
+// ✅ Bonus: Serving HTML files
+const path = require("path");
+
+app.get("/home", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
+// Just make sure that index.html exists in a public/ folder.
