@@ -12,76 +12,51 @@
 // * Add entries to your collection
 // * Build APIs that rely on persistent storage
 
-// Ex 1 : Basic Schema
+// 🔨 Examples
+// 1. Mongo Shell
+// use myDatabase
+
+db.users.insertOne({
+  name: "Alice",
+  age: 25,
+  email: "alice@example.com",
+});
+
+// 2. Node.js (MongoDB Native Driver)
+const { MongoClient } = require("mongodb");
+
+async function createDocument() {
+  const client = new MongoClient("mongodb://localhost:27017");
+  await client.connect();
+
+  const db = client.db("myDatabase");
+  const result = await db.collection("users").insertOne({
+    name: "Bob",
+    email: "bob@example.com",
+  });
+
+  console.log("Inserted ID:", result.insertedId);
+  await client.close();
+}
+
+// 3. Mongoose (ODM for Node.js)
 const mongoose = require("mongoose");
 
-const UserSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
   name: String,
   email: String,
-  age: Number,
 });
 
-module.exports = mongoose.model("User", UserSchema);
+const User = mongoose.model("User", userSchema);
 
-// Ex 2: With Enum Field
-const mongoose = require("mongoose");
-
-const ProductSchema = new mongoose.Schema({
-  name: String,
-  category: {
-    type: String,
-    enum: ["electronics", "clothing", "grocery"], // only allowed values
-    required: true,
-  },
-  price: Number,
+mongoose.connect("mongodb://localhost:27017/myDatabase").then(async () => {
+  const newUser = new User({ name: "Charlie", email: "charlie@example.com" });
+  await newUser.save();
+  console.log("User saved!");
 });
 
-module.exports = mongoose.model("Product", ProductSchema);
-
-// Ex 3: Nested Document (Embedded Subdocument)
-const mongoose = require("mongoose");
-
-const OrderSchema = new mongoose.Schema({
-  customerName: String,
-  shippingAddress: {
-    street: String,
-    city: String,
-    pincode: Number,
-  },
-  totalAmount: Number,
+// 5. REST API with Express.js
+app.post("/users", async (req, res) => {
+  const user = await db.collection("users").insertOne(req.body);
+  res.send(user);
 });
-
-module.exports = mongoose.model("Order", OrderSchema);
-
-// Ex 4: Array of Subdocuments
-const mongoose = require("mongoose");
-
-const BlogSchema = new mongoose.Schema({
-  title: String,
-  content: String,
-  comments: [
-    {
-      user: String,
-      message: String,
-      createdAt: { type: Date, default: Date.now },
-    },
-  ],
-});
-
-module.exports = mongoose.model("Blog", BlogSchema);
-
-// Ex 5: With Required, Default, and Validation
-const mongoose = require("mongoose");
-
-const EmployeeSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  role: { type: String, default: "staff" },
-  salary: { type: Number, min: 10000 },
-  email: {
-    type: String,
-    required: true,
-    match: /.+\@.+\..+/, // basic email regex
-  },
-});
-
-module.exports = mongoose.model("Employee", EmployeeSchema);
