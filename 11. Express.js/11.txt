@@ -136,7 +136,20 @@ Sending JSON/HTML
 =======>
 a7.
 Error Middleware
-<=======
+    Error middleware in Express is a special type of middleware designed to catch and handle errors in one central place. 
+    Instead of writing error handling logic inside each route, you can offload it to a dedicated function.
+
+    Why ?
+    * To centralize error handling logic
+    * To log, format, and respond to errors consistently
+    * To improve code maintainability and debugging
+
+    How ?
+    It must have four arguments:
+    (err, req, res, next)
+
+    Express knows it's an error handler because of these four parameters.
+=======
 
 =======>
 a8.

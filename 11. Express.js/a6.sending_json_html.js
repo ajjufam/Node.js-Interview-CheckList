@@ -41,3 +41,10 @@ app.get("/home", (req, res) => {
 });
 
 // Just make sure that index.html exists in a public/ folder.
+
+// Summary
+// | Method           | Use Case                  |
+// | ---------------- | ------------------------- |
+// | `res.json()`     | Send structured JSON data |
+// | `res.send()`     | Send plain text or HTML   |
+// | `res.sendFile()` | Send full HTML file       |
