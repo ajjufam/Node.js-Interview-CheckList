@@ -1,0 +1,10 @@
+Protocol: ws:// (or wss:// for secure)
+Unlike HTTP (which is request-response), WebSocket maintains an open connection so both client and server can 
+send data at any time.
+
+Why ?
+Use WebSockets when you need:
+* Real-time updates (e.g., chat apps, stock prices, online games)
+* Lower latency communication
+* Reduced HTTP overhead (no repeated headers for every interaction)
+

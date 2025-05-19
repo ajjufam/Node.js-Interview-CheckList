@@ -261,10 +261,28 @@ File Upload (e.g., multer)
 
 =======>
 b5.
-JWT Authentication
+GraphQL
+    GraphQL is a query language for APIs and a runtime for executing those queries with your existing data.
+    * Created by Facebook.
+    * Fetches only the data you need.
+    * Works over HTTP with a single endpoint.
+    * Strongly typed with a defined schema.
+
+    Why ?
+    | Feature               | Benefit                               |
+    | --------------------- | ------------------------------------- |
+    | Single Endpoint       | `/graphql` handles all API operations |
+    | Flexible Queries      | Client asks for specific data only    |
+    | Strongly Typed Schema | Validation, auto-documentation        |
+    | Better for Frontends  | Reduces over-fetching/under-fetching  |
 <=======
 
 =======>
 b6.
+JWT Authentication
+<=======
+
+=======>
+b7.
 Input Validation
 <=======
