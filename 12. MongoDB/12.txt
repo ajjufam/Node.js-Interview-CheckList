@@ -204,4 +204,20 @@ Mongoose Connection
 =======>
 b3.
 Population (populate)
+    In Mongoose, populate() is a way to automatically replace the specified path in a document with actual documents 
+    from another collection.
+    👉 It's like doing a "JOIN" in SQL — MongoDB doesn't support JOINs directly, but Mongoose gives us this feature via populate.
+
+    Why ?
+    Imagine you have 2 collections:
+        * Users
+        * Posts
+    Each Post has a reference (userId) to a User. But when you query Posts, you want the full user info, 
+    not just the userId.
+    Instead of making 2 separate queries, you use populate to "pull in" the user details directly.
+
+    🧠 populate is used to initialize the "foreign key" in MongoDB — meaning:
+    * You store just the ObjectId of the related document (like userId in a Post)
+    * But when you use populate(), Mongoose goes and fetches the actual document (like full user details)
+    * It replaces the ObjectId with the full object
 <=======
