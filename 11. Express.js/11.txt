@@ -249,6 +249,14 @@ Body Parsing
 =======>
 b4.
 File Upload (e.g., multer)
+    multer is a Node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
+    Express by default does not understand file uploads, so we use multer to process them.
+
+    Why ?
+    * Parses incoming file data in requests
+    * Stores files to disk or memory
+    * Adds req.file or req.files to access uploaded file info
+    * Works great for uploading profile images, PDFs, etc.
 <=======
 
 =======>
