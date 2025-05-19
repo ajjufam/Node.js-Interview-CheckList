@@ -154,6 +154,17 @@ Error Middleware
 =======>
 a8.
 Route Params & Query
+    ✅ Route Parameters (req.params)
+    Route parameters are named URL segments used to capture values from the URL.
+
+    Why ?
+    To identify resources — like a specific user, product, or order.
+
+    ✅ Query Parameters (req.query)
+    Query parameters are key-value pairs in the URL after the ?.
+
+    Why ?
+    To filter, sort, paginate, or search data without changing the route path.
 <=======
 
 =======>
