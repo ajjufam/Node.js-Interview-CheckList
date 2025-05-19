@@ -337,4 +337,21 @@ Schema Migrations
 =======>
 b9.
 Monitor Performance
+    Monitoring MongoDB performance is critical in production systems to ensure reliability, scalability, and efficiency.
+
+    Performance monitoring in MongoDB means tracking how well the database performs over time. It includes observing metrics like:
+    * Query response times
+    * CPU and memory usage
+    * IOPS (input/output per second)
+    * Connection count
+    * Slow queries
+    * Lock percentage
+    * Replica set health
+
+    Why ?
+    ✅ Detect and troubleshoot slow queries
+    ✅ Ensure availability and uptime
+    ✅ Scale effectively
+    ✅ Avoid downtime by acting before failure
+    ✅ Understand system behavior under load
 <=======
