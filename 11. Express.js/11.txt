@@ -235,6 +235,15 @@ HTTP Status Codes
 =======>
 b3.
 Body Parsing
+    Body parsing is the process of extracting data sent by the client (like from a form or API request) in the 
+    body of an HTTP request, usually in:
+    * JSON format (application/json)
+    * URL-encoded form (application/x-www-form-urlencoded)
+
+    Why ?
+    * To access user-submitted data in req.body
+    * Required for routes handling POST, PUT, PATCH requests
+    Without body parsing, req.body will be undefined.
 <=======
 
 =======>
