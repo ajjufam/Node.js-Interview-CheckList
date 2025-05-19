@@ -1,6 +1,15 @@
 =======>
 a1.
 Setup Express App
+    Express is a minimal and flexible Node.js web application framework that provides a robust set of features to 
+    build web and mobile applications. It simplifies handling HTTP requests, routing, middleware, and server-side logic.
+
+    Why ?
+    * Simplifies server creation — you don’t have to work with the raw Node.js HTTP module.
+    * Routing made easy — organize your endpoints with clean and readable code.
+    * Middleware support — easily add functionality like logging, authentication, error handling.
+    * Extensible — integrates with many template engines, databases, and other Node.js libraries.
+    * Lightweight and fast — minimal overhead, giving you control and performance.
 <=======
 
 =======>
