@@ -120,6 +120,17 @@ req & res objects
 =======>
 a6.
 Sending JSON/HTML
+    ✅ Sending JSON in Express
+    You send JSON when you want to respond with structured data (like an object or array). It's commonly used in APIs.
+
+    How ?
+    Use res.json() — it sets the Content-Type header to application/json automatically.
+
+    ✅ Sending HTML in Express
+    You send HTML when you're returning a complete web page (static or dynamically generated).
+
+    How ?
+    Use res.send() to send raw HTML content.
 <=======
 
 =======>
