@@ -279,14 +279,34 @@ Sharding
 =======>
 b6.
 Primary and secondary Replica sets
+    A replica set is a group of MongoDB servers that maintain the same data set through replication.
+    Key roles:
+    * Primary: The node that receives all write operations.
+    * Secondary: Nodes that replicate the primary's data set and can be used for read operations or failover.
+
+    Why ?
+    * High Availability: If the primary fails, a secondary is promoted to primary automatically.
+    * Data Redundancy: All data is replicated, minimizing risk of data loss.
+    * Read Scaling (with readPreference): Read from secondaries in some scenarios.
+    * Disaster Recovery: Backups can be taken from secondaries to avoid impacting production.
+
+    🔵 How Replica Set Works:
+    * Writes always go to the primary.
+    * Secondaries constantly replicate the oplog (operation log) from the primary.
+    * If the primary goes down, the remaining secondaries hold an election to pick a new primary.
 <=======
 
 =======>
 b7.
-Schema Migrations
+Horizontal vs Vertical scalling
 <=======
 
 =======>
 b8.
+Schema Migrations
+<=======
+
+=======>
+b9.
 Monitor Performance
 <=======
