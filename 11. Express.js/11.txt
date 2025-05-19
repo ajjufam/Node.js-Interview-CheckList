@@ -84,7 +84,7 @@ Router
     * To apply middleware only to specific groups of routes.
     * To reuse and mount route handlers in different parts of your app.
 
-    How to Use 
+    How to Use
     * Create a router object with express.Router().
     * Define routes on this router.
     * Export the router if in a separate file.
@@ -94,6 +94,27 @@ Router
 =======>
 a5.
 req & res objects
+    * req stands for request object — it represents the HTTP request from the client.
+    * res stands for response object — it is used to send back the HTTP response to the client.
+    They are the two core objects you work with inside every route handler or middleware.
+
+    What does req contain?
+    The req object holds information about the client’s request, such as:
+    * req.params — route parameters (e.g., /users/:id → req.params.id)
+    * req.query — query string parameters (e.g., /search?q=term → req.query.q)
+    * req.body — data sent in the body of POST/PUT requests (requires body parser middleware)
+    * req.headers — HTTP headers sent by the client
+    * req.method — HTTP method (GET, POST, etc.)
+    * req.url — the full URL requested
+
+    What can you do with res?
+    The res object lets you craft and send the response:
+    * res.send() — send a response (string, buffer, JSON, etc.)
+    * res.json() — send a JSON response (sets content-type automatically)
+    * res.status(code) — set the HTTP status code (e.g., 200, 404, 500)
+    * res.redirect(url) — redirect the client to another URL
+    * res.render() — render a template view (if using a view engine)
+    * res.set() — set response headers
 <=======
 
 =======>
